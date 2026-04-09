@@ -33,6 +33,7 @@ def init():
     df = modify_data.add_big_eco(df)
     df = modify_data.add_game_length(df)
     df = modify_data.add_win_streak(df)
+    df = modify_data.add_game_features(df)
 
     # output_path = os.path.join(data_dir, 'all_games.csv')
     output_path = "data/all_games.csv"
@@ -40,19 +41,31 @@ def init():
     print(f"{Back.GREEN}Saved {len(df)} games to {output_path}{Style.RESET_ALL}")
 
 
-def main():
+def prep_data():
+    """
+    prep data.
+
+    """
     init()
     df_original, df = load_csv()
-    # upd.missing_round_count(df_original)
-    # upd.non_traditional_count(df_original)
-    # upd.head_to_head(df)
+    upd.missing_round_count(df_original)
+    upd.non_traditional_count(df_original)
+    upd.head_to_head(df)
     # upd.eco_counts(df)
-    # upd.win_rates(df)
-    # upd.big_eco_counts(df)
+    upd.win_rates(df)
+    upd.queen_trade_pct(df)
+    upd.balanced_pct(df)
+    upd.big_eco_counts(df)
+
+
+def main():
+    """ actual bayes net stuff"""
+    pass
 
 
 
 
 if __name__ == "__main__":
+    prep_data()
     main()
 

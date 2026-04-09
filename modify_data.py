@@ -4,8 +4,14 @@ Add or remove data to the big csv derived from existing data
 
 import os
 import re
+import chess
 import pandas as pd
 from colorama import Back, Style
+
+PIECE_VALUE = {
+    chess.PAWN: 1, chess.KNIGHT: 3, chess.BISHOP: 3,
+    chess.ROOK: 5, chess.QUEEN: 9, chess.KING: 0,
+}
 
 # (range_start, range_end, bigECO_label)
 BIG_ECO_RANGES = [
@@ -143,6 +149,91 @@ def remove_variant_cols(df):
     to_drop = [col for col in ['Variant', 'FEN', 'SetUp'] if col in df.columns]
     df = df.drop(columns=to_drop)
     print(f"{Back.CYAN}remove_variant_cols done{Style.RESET_ALL}")
+    return df
+
+
+def _analyze_game(moves_str, threshold=3, persist=4):
+    """Single-pass replay: compute QueenTraded, OppositeCastle, Balanced."""
+    if pd.isna(moves_str):
+        return False, False, True
+
+    moves_str = re.sub(r'\s*(1-0|0-1|1/2-1/2|\*)\s*$', '', moves_str)
+    sans = [t for t in moves_str.split() if not re.match(r'^\d+\.+$', t)]
+    if not sans:
+        return False, False, True
+
+    board = chess.Board()
+    queen_traded = False
+    white_castle = black_castle = None
+    balance = 0
+    streak = 0
+    balanced = True
+
+    for san in sans:
+        try:
+            move = board.parse_san(san)
+        except (chess.InvalidMoveError, chess.AmbiguousMoveError):
+            break
+
+        # Castling (check before push — board.turn is the side to move)
+        if board.is_kingside_castling(move):
+            if board.turn == chess.WHITE:
+                white_castle = 'K'
+            else:
+                black_castle = 'K'
+        elif board.is_queenside_castling(move):
+            if board.turn == chess.WHITE:
+                white_castle = 'Q'
+            else:
+                black_castle = 'Q'
+
+        # Material balance (check before push to see captured piece)
+        if board.is_capture(move):
+            if board.is_en_passant(move):
+                cap_val = 1
+            else:
+                captured = board.piece_at(move.to_square)
+                cap_val = PIECE_VALUE[captured.piece_type] if captured else 0
+            if board.turn == chess.WHITE:
+                balance += cap_val
+            else:
+                balance -= cap_val
+        if move.promotion:
+            diff = PIECE_VALUE[move.promotion] - PIECE_VALUE[chess.PAWN]
+            if board.turn == chess.WHITE:
+                balance += diff
+            else:
+                balance -= diff
+
+        board.push(move)
+
+        # Queen trade (check after push)
+        if not queen_traded:
+            if not board.pieces(chess.QUEEN, chess.WHITE) \
+               and not board.pieces(chess.QUEEN, chess.BLACK):
+                queen_traded = True
+
+        # Balance streak
+        if balanced:
+            if abs(balance) >= threshold:
+                streak += 1
+                if streak >= persist:
+                    balanced = False
+            else:
+                streak = 0
+
+    opp_castle = (white_castle is not None and black_castle is not None
+                  and white_castle != black_castle)
+    return queen_traded, opp_castle, balanced
+
+
+def add_game_features(df):
+    """Add QueenTraded, OppositeCastle, Balanced in one replay pass."""
+    results = df['Moves'].apply(_analyze_game)
+    df['QueenTraded'] = results.apply(lambda r: r[0])
+    df['OppositeCastle'] = results.apply(lambda r: r[1])
+    df['Balanced'] = results.apply(lambda r: r[2])
+    print(f"{Back.CYAN}add_game_features done (QueenTraded, OppositeCastle, Balanced){Style.RESET_ALL}")
     return df
 
 

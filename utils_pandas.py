@@ -138,3 +138,21 @@ def win_rates(df):
     results_df = pd.DataFrame(results).sort_values('Win%', ascending=False)
     print(results_df.to_string(index=False))
     print()
+
+
+def queen_trade_pct(df):
+    """Print percentage of games where queens were traded."""
+    total = len(df)
+    traded = df['QueenTraded'].sum()
+    pct = traded / total * 100 if total > 0 else 0
+    print(f"=== Queen Trade %: {traded}/{total} ({pct:.1f}%) ===")
+    print()
+
+
+def balanced_pct(df):
+    """Print percentage of balanced games."""
+    total = len(df)
+    bal = df['Balanced'].sum()
+    pct = bal / total * 100 if total > 0 else 0
+    print(f"=== Balanced Game %: {bal}/{total} ({pct:.1f}%) ===")
+    print()
