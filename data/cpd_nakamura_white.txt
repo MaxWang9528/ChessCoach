@@ -1,0 +1,902 @@
+--- Player ---
+  Player(Nakamura, Hikaru): 1.000000
+
+--- BigECO ---
+  [Player=Nakamura, Hikaru]
+    BigECO(A00 Polish (Sokolsky) opening): 0.010336
+    BigECO(A01 Nimzovich-Larsen attack): 0.024289
+    BigECO(A02-A03 Bird's opening): 0.005168
+    BigECO(A04-A09 Reti opening): 0.100258
+    BigECO(A10-A39 English opening): 0.091473
+    BigECO(A40-A41 Queen's pawn): 0.001034
+    BigECO(A45-A46 Queen's pawn game): 0.033075
+    BigECO(A48-A49 King's Indian, East Indian defence): 0.002067
+    BigECO(A50 Queen's pawn game): 0.001550
+    BigECO(A53-A55 Old Indian defence): 0.001034
+    BigECO(A56 Benoni defence): 0.001034
+    BigECO(A57-A59 Benko gambit): 0.002067
+    BigECO(A60-A79 Benoni defence): 0.004651
+    BigECO(A80-A99 Dutch): 0.005685
+    BigECO(B00 King's pawn opening): 0.000517
+    BigECO(B01 Scandinavian defence): 0.004651
+    BigECO(B02-B05 Alekhine's defence): 0.002584
+    BigECO(B06 Robatsch (modern) defence): 0.004651
+    BigECO(B07-B09 Pirc defence): 0.010853
+    BigECO(B10-B19 Caro-Kann defence): 0.026357
+    BigECO(B20-B99 Sicilian defence): 0.154522
+    BigECO(C00-C19 French defence): 0.036176
+    BigECO(C20 King's pawn game): 0.002067
+    BigECO(C23-C24 Bishop's opening): 0.004651
+    BigECO(C25-C29 Vienna game): 0.012403
+    BigECO(C30-C39 King's gambit): 0.003618
+    BigECO(C41 Philidor's defence): 0.003618
+    BigECO(C42-C43 Petrov's defence): 0.016537
+    BigECO(C44 King's pawn game): 0.002584
+    BigECO(C45 Scotch game): 0.012920
+    BigECO(C46 Three knights game): 0.001034
+    BigECO(C47-C49 Four knights, Scotch variation): 0.007235
+    BigECO(C50 Italian Game): 0.006202
+    BigECO(C51-C52 Evans gambit): 0.001550
+    BigECO(C53-C54 Giuoco Piano): 0.003101
+    BigECO(C55-C59 Two knights defence): 0.003618
+    BigECO(C60-C99 Ruy Lopez (Spanish opening)): 0.089922
+    BigECO(D00 Queen's pawn game): 0.007235
+    BigECO(D01 Richter-Veresov attack): 0.005168
+    BigECO(D02 Queen's pawn game): 0.004651
+    BigECO(D04-D05 Queen's pawn game): 0.002584
+    BigECO(D06 Queen's Gambit): 0.000517
+    BigECO(D07-D09 QGD, Chigorin defence): 0.000517
+    BigECO(D10-D15 QGD Slav defence): 0.034109
+    BigECO(D16 QGD Slav accepted, Alapin variation): 0.003101
+    BigECO(D17-D19 QGD Slav, Czech defence): 0.003101
+    BigECO(D20-D29 Queen's gambit accepted): 0.006202
+    BigECO(D30-D42 Queen's gambit declined): 0.066150
+    BigECO(D43-D49 QGD semi-Slav): 0.023773
+    BigECO(D50-D69 QGD, 4.Bg5): 0.008786
+    BigECO(D70-D79 Neo-Gruenfeld defence): 0.008786
+    BigECO(D80-D99 Gruenfeld defence): 0.025840
+    BigECO(E00 Queen's pawn game): 0.001550
+    BigECO(E01-E09 Catalan, closed): 0.012920
+    BigECO(E10 Queen's pawn game): 0.003101
+    BigECO(E11 Bogo-Indian defence): 0.004651
+    BigECO(E12-E19 Queen's Indian defence): 0.012920
+    BigECO(E20-E59 Nimzo-Indian defence): 0.044961
+    BigECO(E60-E99 King's Indian defence): 0.024289
+
+--- QueenTraded ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.450000
+    QueenTraded(True): 0.550000
+  [BigECO=A01 Nimzovich-Larsen attack, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.255319
+    QueenTraded(True): 0.744681
+  [BigECO=A02-A03 Bird's opening, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.300000
+    QueenTraded(True): 0.700000
+  [BigECO=A04-A09 Reti opening, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.402062
+    QueenTraded(True): 0.597938
+  [BigECO=A10-A39 English opening, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.338983
+    QueenTraded(True): 0.661017
+  [BigECO=A40-A41 Queen's pawn, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=A45-A46 Queen's pawn game, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.375000
+    QueenTraded(True): 0.625000
+  [BigECO=A48-A49 King's Indian, East Indian defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.250000
+    QueenTraded(True): 0.750000
+  [BigECO=A50 Queen's pawn game, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=A53-A55 Old Indian defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=A56 Benoni defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=A57-A59 Benko gambit, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=A60-A79 Benoni defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.555556
+    QueenTraded(True): 0.444444
+  [BigECO=A80-A99 Dutch, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.727273
+    QueenTraded(True): 0.272727
+  [BigECO=B00 King's pawn opening, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=B01 Scandinavian defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.555556
+    QueenTraded(True): 0.444444
+  [BigECO=B02-B05 Alekhine's defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.200000
+    QueenTraded(True): 0.800000
+  [BigECO=B06 Robatsch (modern) defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.444444
+    QueenTraded(True): 0.555556
+  [BigECO=B07-B09 Pirc defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.476190
+    QueenTraded(True): 0.523810
+  [BigECO=B10-B19 Caro-Kann defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.470588
+    QueenTraded(True): 0.529412
+  [BigECO=B20-B99 Sicilian defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.458194
+    QueenTraded(True): 0.541806
+  [BigECO=C00-C19 French defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=C20 King's pawn game, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.750000
+    QueenTraded(True): 0.250000
+  [BigECO=C23-C24 Bishop's opening, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=C25-C29 Vienna game, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.208333
+    QueenTraded(True): 0.791667
+  [BigECO=C30-C39 King's gambit, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.571429
+    QueenTraded(True): 0.428571
+  [BigECO=C41 Philidor's defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.571429
+    QueenTraded(True): 0.428571
+  [BigECO=C42-C43 Petrov's defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.343750
+    QueenTraded(True): 0.656250
+  [BigECO=C44 King's pawn game, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.600000
+    QueenTraded(True): 0.400000
+  [BigECO=C45 Scotch game, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.480000
+    QueenTraded(True): 0.520000
+  [BigECO=C46 Three knights game, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.214286
+    QueenTraded(True): 0.785714
+  [BigECO=C50 Italian Game, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.416667
+    QueenTraded(True): 0.583333
+  [BigECO=C51-C52 Evans gambit, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.666667
+    QueenTraded(True): 0.333333
+  [BigECO=C53-C54 Giuoco Piano, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=C55-C59 Two knights defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.285714
+    QueenTraded(True): 0.714286
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.390805
+    QueenTraded(True): 0.609195
+  [BigECO=D00 Queen's pawn game, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.357143
+    QueenTraded(True): 0.642857
+  [BigECO=D01 Richter-Veresov attack, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.100000
+    QueenTraded(True): 0.900000
+  [BigECO=D02 Queen's pawn game, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=D04-D05 Queen's pawn game, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.600000
+    QueenTraded(True): 0.400000
+  [BigECO=D06 Queen's Gambit, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=D07-D09 QGD, Chigorin defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=D10-D15 QGD Slav defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.545455
+    QueenTraded(True): 0.454545
+  [BigECO=D16 QGD Slav accepted, Alapin variation, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=D17-D19 QGD Slav, Czech defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=D20-D29 Queen's gambit accepted, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.083333
+    QueenTraded(True): 0.916667
+  [BigECO=D30-D42 Queen's gambit declined, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.406250
+    QueenTraded(True): 0.593750
+  [BigECO=D43-D49 QGD semi-Slav, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.521739
+    QueenTraded(True): 0.478261
+  [BigECO=D50-D69 QGD, 4.Bg5, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.352941
+    QueenTraded(True): 0.647059
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.352941
+    QueenTraded(True): 0.647059
+  [BigECO=D80-D99 Gruenfeld defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.360000
+    QueenTraded(True): 0.640000
+  [BigECO=E00 Queen's pawn game, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=E01-E09 Catalan, closed, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.360000
+    QueenTraded(True): 0.640000
+  [BigECO=E10 Queen's pawn game, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.166667
+    QueenTraded(True): 0.833333
+  [BigECO=E11 Bogo-Indian defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.222222
+    QueenTraded(True): 0.777778
+  [BigECO=E12-E19 Queen's Indian defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.480000
+    QueenTraded(True): 0.520000
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.356322
+    QueenTraded(True): 0.643678
+  [BigECO=E60-E99 King's Indian defence, Player=Nakamura, Hikaru]
+    QueenTraded(False): 0.489362
+    QueenTraded(True): 0.510638
+
+--- Balanced ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Nakamura, Hikaru]
+    Balanced(False): 0.850000
+    Balanced(True): 0.150000
+  [BigECO=A01 Nimzovich-Larsen attack, Player=Nakamura, Hikaru]
+    Balanced(False): 0.893617
+    Balanced(True): 0.106383
+  [BigECO=A02-A03 Bird's opening, Player=Nakamura, Hikaru]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=A04-A09 Reti opening, Player=Nakamura, Hikaru]
+    Balanced(False): 0.793814
+    Balanced(True): 0.206186
+  [BigECO=A10-A39 English opening, Player=Nakamura, Hikaru]
+    Balanced(False): 0.807910
+    Balanced(True): 0.192090
+  [BigECO=A40-A41 Queen's pawn, Player=Nakamura, Hikaru]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=A45-A46 Queen's pawn game, Player=Nakamura, Hikaru]
+    Balanced(False): 0.781250
+    Balanced(True): 0.218750
+  [BigECO=A48-A49 King's Indian, East Indian defence, Player=Nakamura, Hikaru]
+    Balanced(False): 0.750000
+    Balanced(True): 0.250000
+  [BigECO=A50 Queen's pawn game, Player=Nakamura, Hikaru]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A53-A55 Old Indian defence, Player=Nakamura, Hikaru]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=A56 Benoni defence, Player=Nakamura, Hikaru]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A57-A59 Benko gambit, Player=Nakamura, Hikaru]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A60-A79 Benoni defence, Player=Nakamura, Hikaru]
+    Balanced(False): 0.888889
+    Balanced(True): 0.111111
+  [BigECO=A80-A99 Dutch, Player=Nakamura, Hikaru]
+    Balanced(False): 0.636364
+    Balanced(True): 0.363636
+  [BigECO=B00 King's pawn opening, Player=Nakamura, Hikaru]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=B01 Scandinavian defence, Player=Nakamura, Hikaru]
+    Balanced(False): 0.777778
+    Balanced(True): 0.222222
+  [BigECO=B02-B05 Alekhine's defence, Player=Nakamura, Hikaru]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=B06 Robatsch (modern) defence, Player=Nakamura, Hikaru]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=B07-B09 Pirc defence, Player=Nakamura, Hikaru]
+    Balanced(False): 0.857143
+    Balanced(True): 0.142857
+  [BigECO=B10-B19 Caro-Kann defence, Player=Nakamura, Hikaru]
+    Balanced(False): 0.745098
+    Balanced(True): 0.254902
+  [BigECO=B20-B99 Sicilian defence, Player=Nakamura, Hikaru]
+    Balanced(False): 0.752508
+    Balanced(True): 0.247492
+  [BigECO=C00-C19 French defence, Player=Nakamura, Hikaru]
+    Balanced(False): 0.700000
+    Balanced(True): 0.300000
+  [BigECO=C20 King's pawn game, Player=Nakamura, Hikaru]
+    Balanced(False): 0.750000
+    Balanced(True): 0.250000
+  [BigECO=C23-C24 Bishop's opening, Player=Nakamura, Hikaru]
+    Balanced(False): 0.888889
+    Balanced(True): 0.111111
+  [BigECO=C25-C29 Vienna game, Player=Nakamura, Hikaru]
+    Balanced(False): 0.708333
+    Balanced(True): 0.291667
+  [BigECO=C30-C39 King's gambit, Player=Nakamura, Hikaru]
+    Balanced(False): 0.857143
+    Balanced(True): 0.142857
+  [BigECO=C41 Philidor's defence, Player=Nakamura, Hikaru]
+    Balanced(False): 0.571429
+    Balanced(True): 0.428571
+  [BigECO=C42-C43 Petrov's defence, Player=Nakamura, Hikaru]
+    Balanced(False): 0.656250
+    Balanced(True): 0.343750
+  [BigECO=C44 King's pawn game, Player=Nakamura, Hikaru]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C45 Scotch game, Player=Nakamura, Hikaru]
+    Balanced(False): 0.760000
+    Balanced(True): 0.240000
+  [BigECO=C46 Three knights game, Player=Nakamura, Hikaru]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Nakamura, Hikaru]
+    Balanced(False): 0.857143
+    Balanced(True): 0.142857
+  [BigECO=C50 Italian Game, Player=Nakamura, Hikaru]
+    Balanced(False): 0.833333
+    Balanced(True): 0.166667
+  [BigECO=C51-C52 Evans gambit, Player=Nakamura, Hikaru]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C53-C54 Giuoco Piano, Player=Nakamura, Hikaru]
+    Balanced(False): 0.833333
+    Balanced(True): 0.166667
+  [BigECO=C55-C59 Two knights defence, Player=Nakamura, Hikaru]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Nakamura, Hikaru]
+    Balanced(False): 0.626437
+    Balanced(True): 0.373563
+  [BigECO=D00 Queen's pawn game, Player=Nakamura, Hikaru]
+    Balanced(False): 0.714286
+    Balanced(True): 0.285714
+  [BigECO=D01 Richter-Veresov attack, Player=Nakamura, Hikaru]
+    Balanced(False): 0.800000
+    Balanced(True): 0.200000
+  [BigECO=D02 Queen's pawn game, Player=Nakamura, Hikaru]
+    Balanced(False): 0.444444
+    Balanced(True): 0.555556
+  [BigECO=D04-D05 Queen's pawn game, Player=Nakamura, Hikaru]
+    Balanced(False): 0.600000
+    Balanced(True): 0.400000
+  [BigECO=D06 Queen's Gambit, Player=Nakamura, Hikaru]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D07-D09 QGD, Chigorin defence, Player=Nakamura, Hikaru]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D10-D15 QGD Slav defence, Player=Nakamura, Hikaru]
+    Balanced(False): 0.712121
+    Balanced(True): 0.287879
+  [BigECO=D16 QGD Slav accepted, Alapin variation, Player=Nakamura, Hikaru]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D17-D19 QGD Slav, Czech defence, Player=Nakamura, Hikaru]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D20-D29 Queen's gambit accepted, Player=Nakamura, Hikaru]
+    Balanced(False): 0.916667
+    Balanced(True): 0.083333
+  [BigECO=D30-D42 Queen's gambit declined, Player=Nakamura, Hikaru]
+    Balanced(False): 0.734375
+    Balanced(True): 0.265625
+  [BigECO=D43-D49 QGD semi-Slav, Player=Nakamura, Hikaru]
+    Balanced(False): 0.804348
+    Balanced(True): 0.195652
+  [BigECO=D50-D69 QGD, 4.Bg5, Player=Nakamura, Hikaru]
+    Balanced(False): 0.705882
+    Balanced(True): 0.294118
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Nakamura, Hikaru]
+    Balanced(False): 0.823529
+    Balanced(True): 0.176471
+  [BigECO=D80-D99 Gruenfeld defence, Player=Nakamura, Hikaru]
+    Balanced(False): 0.880000
+    Balanced(True): 0.120000
+  [BigECO=E00 Queen's pawn game, Player=Nakamura, Hikaru]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=E01-E09 Catalan, closed, Player=Nakamura, Hikaru]
+    Balanced(False): 0.920000
+    Balanced(True): 0.080000
+  [BigECO=E10 Queen's pawn game, Player=Nakamura, Hikaru]
+    Balanced(False): 0.833333
+    Balanced(True): 0.166667
+  [BigECO=E11 Bogo-Indian defence, Player=Nakamura, Hikaru]
+    Balanced(False): 0.555556
+    Balanced(True): 0.444444
+  [BigECO=E12-E19 Queen's Indian defence, Player=Nakamura, Hikaru]
+    Balanced(False): 0.640000
+    Balanced(True): 0.360000
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Nakamura, Hikaru]
+    Balanced(False): 0.839080
+    Balanced(True): 0.160920
+  [BigECO=E60-E99 King's Indian defence, Player=Nakamura, Hikaru]
+    Balanced(False): 0.851064
+    Balanced(True): 0.148936
+
+--- CastleBalance ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.250000
+    CastleBalance(True): 0.750000
+  [BigECO=A01 Nimzovich-Larsen attack, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.319149
+    CastleBalance(True): 0.680851
+  [BigECO=A02-A03 Bird's opening, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.100000
+    CastleBalance(True): 0.900000
+  [BigECO=A04-A09 Reti opening, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.092784
+    CastleBalance(True): 0.907216
+  [BigECO=A10-A39 English opening, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.175141
+    CastleBalance(True): 0.824859
+  [BigECO=A40-A41 Queen's pawn, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A45-A46 Queen's pawn game, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.312500
+    CastleBalance(True): 0.687500
+  [BigECO=A48-A49 King's Indian, East Indian defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A50 Queen's pawn game, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.333333
+    CastleBalance(True): 0.666667
+  [BigECO=A53-A55 Old Indian defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A56 Benoni defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A57-A59 Benko gambit, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.500000
+    CastleBalance(True): 0.500000
+  [BigECO=A60-A79 Benoni defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.111111
+    CastleBalance(True): 0.888889
+  [BigECO=A80-A99 Dutch, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.090909
+    CastleBalance(True): 0.909091
+  [BigECO=B00 King's pawn opening, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=B01 Scandinavian defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.555556
+    CastleBalance(True): 0.444444
+  [BigECO=B02-B05 Alekhine's defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.600000
+    CastleBalance(True): 0.400000
+  [BigECO=B06 Robatsch (modern) defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.444444
+    CastleBalance(True): 0.555556
+  [BigECO=B07-B09 Pirc defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.571429
+    CastleBalance(True): 0.428571
+  [BigECO=B10-B19 Caro-Kann defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.333333
+    CastleBalance(True): 0.666667
+  [BigECO=B20-B99 Sicilian defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.367893
+    CastleBalance(True): 0.632107
+  [BigECO=C00-C19 French defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.528571
+    CastleBalance(True): 0.471429
+  [BigECO=C20 King's pawn game, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.750000
+    CastleBalance(True): 0.250000
+  [BigECO=C23-C24 Bishop's opening, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.222222
+    CastleBalance(True): 0.777778
+  [BigECO=C25-C29 Vienna game, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.166667
+    CastleBalance(True): 0.833333
+  [BigECO=C30-C39 King's gambit, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.428571
+    CastleBalance(True): 0.571429
+  [BigECO=C41 Philidor's defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.428571
+    CastleBalance(True): 0.571429
+  [BigECO=C42-C43 Petrov's defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.343750
+    CastleBalance(True): 0.656250
+  [BigECO=C44 King's pawn game, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.600000
+    CastleBalance(True): 0.400000
+  [BigECO=C45 Scotch game, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.520000
+    CastleBalance(True): 0.480000
+  [BigECO=C46 Three knights game, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.500000
+    CastleBalance(True): 0.500000
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.214286
+    CastleBalance(True): 0.785714
+  [BigECO=C50 Italian Game, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C51-C52 Evans gambit, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C53-C54 Giuoco Piano, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C55-C59 Two knights defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.142857
+    CastleBalance(True): 0.857143
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.235632
+    CastleBalance(True): 0.764368
+  [BigECO=D00 Queen's pawn game, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.571429
+    CastleBalance(True): 0.428571
+  [BigECO=D01 Richter-Veresov attack, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.600000
+    CastleBalance(True): 0.400000
+  [BigECO=D02 Queen's pawn game, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.111111
+    CastleBalance(True): 0.888889
+  [BigECO=D04-D05 Queen's pawn game, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.600000
+    CastleBalance(True): 0.400000
+  [BigECO=D06 Queen's Gambit, Player=Nakamura, Hikaru]
+    CastleBalance(False): 1.000000
+    CastleBalance(True): 0.000000
+  [BigECO=D07-D09 QGD, Chigorin defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 1.000000
+    CastleBalance(True): 0.000000
+  [BigECO=D10-D15 QGD Slav defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.257576
+    CastleBalance(True): 0.742424
+  [BigECO=D16 QGD Slav accepted, Alapin variation, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.166667
+    CastleBalance(True): 0.833333
+  [BigECO=D17-D19 QGD Slav, Czech defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.666667
+    CastleBalance(True): 0.333333
+  [BigECO=D20-D29 Queen's gambit accepted, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.500000
+    CastleBalance(True): 0.500000
+  [BigECO=D30-D42 Queen's gambit declined, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.218750
+    CastleBalance(True): 0.781250
+  [BigECO=D43-D49 QGD semi-Slav, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.565217
+    CastleBalance(True): 0.434783
+  [BigECO=D50-D69 QGD, 4.Bg5, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.117647
+    CastleBalance(True): 0.882353
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.294118
+    CastleBalance(True): 0.705882
+  [BigECO=D80-D99 Gruenfeld defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.280000
+    CastleBalance(True): 0.720000
+  [BigECO=E00 Queen's pawn game, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E01-E09 Catalan, closed, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.080000
+    CastleBalance(True): 0.920000
+  [BigECO=E10 Queen's pawn game, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E11 Bogo-Indian defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.111111
+    CastleBalance(True): 0.888889
+  [BigECO=E12-E19 Queen's Indian defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.120000
+    CastleBalance(True): 0.880000
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.298851
+    CastleBalance(True): 0.701149
+  [BigECO=E60-E99 King's Indian defence, Player=Nakamura, Hikaru]
+    CastleBalance(False): 0.148936
+    CastleBalance(True): 0.851064
+
+--- Result ---
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.200000
+    Result(1-0): 0.600000
+    Result(1/2-1/2): 0.200000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.111111
+    Result(1-0): 0.666667
+    Result(1/2-1/2): 0.222222
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.800000
+    Result(1/2-1/2): 0.200000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.166667
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.210526
+    Result(1-0): 0.578947
+    Result(1/2-1/2): 0.210526
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.125000
+    Result(1-0): 0.675000
+    Result(1/2-1/2): 0.200000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.666667
+    Result(1/2-1/2): 0.333333
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.135135
+    Result(1-0): 0.729730
+    Result(1/2-1/2): 0.135135
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.181818
+    Result(1-0): 0.654545
+    Result(1/2-1/2): 0.163636
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.150000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.350000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.153846
+    Result(1-0): 0.384615
+    Result(1/2-1/2): 0.461538
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.079365
+    Result(1-0): 0.579365
+    Result(1/2-1/2): 0.341270
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.277778
+    Result(1-0): 0.555556
+    Result(1/2-1/2): 0.166667
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.195652
+    Result(1-0): 0.434783
+    Result(1/2-1/2): 0.369565
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.161290
+    Result(1-0): 0.516129
+    Result(1/2-1/2): 0.322581
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.193548
+    Result(1-0): 0.483871
+    Result(1/2-1/2): 0.322581
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.133333
+    Result(1-0): 0.586667
+    Result(1/2-1/2): 0.280000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.127273
+    Result(1-0): 0.454545
+    Result(1/2-1/2): 0.418182
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.241379
+    Result(1-0): 0.551724
+    Result(1/2-1/2): 0.206897
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.207921
+    Result(1-0): 0.376238
+    Result(1/2-1/2): 0.415842
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.200000
+    Result(1-0): 0.509091
+    Result(1/2-1/2): 0.290909
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.152542
+    Result(1-0): 0.406780
+    Result(1/2-1/2): 0.440678
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.075829
+    Result(1-0): 0.350711
+    Result(1/2-1/2): 0.573460
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.160000
+    Result(1-0): 0.510000
+    Result(1/2-1/2): 0.330000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.312500
+    Result(1-0): 0.375000
+    Result(1/2-1/2): 0.312500
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.222222
+    Result(1-0): 0.555556
+    Result(1/2-1/2): 0.222222
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.363636
+    Result(1-0): 0.454545
+    Result(1/2-1/2): 0.181818
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.200000
+    Result(1-0): 0.400000
+    Result(1/2-1/2): 0.400000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.222222
+    Result(1-0): 0.388889
+    Result(1/2-1/2): 0.388889
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.166667
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.333333
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.304348
+    Result(1-0): 0.391304
+    Result(1/2-1/2): 0.304348
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.166667
+    Result(1-0): 0.458333
+    Result(1/2-1/2): 0.375000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.105263
+    Result(1-0): 0.368421
+    Result(1/2-1/2): 0.526316
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.282609
+    Result(1-0): 0.434783
+    Result(1/2-1/2): 0.282609
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.133333
+    Result(1-0): 0.555556
+    Result(1/2-1/2): 0.311111
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.250000
+    Result(1-0): 0.312500
+    Result(1/2-1/2): 0.437500
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.666667
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.200000
+    Result(1/2-1/2): 0.800000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.153846
+    Result(1-0): 0.384615
+    Result(1/2-1/2): 0.461538
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.076923
+    Result(1-0): 0.538462
+    Result(1/2-1/2): 0.384615
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.181818
+    Result(1/2-1/2): 0.818182
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.750000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 1.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.066667
+    Result(1-0): 0.200000
+    Result(1/2-1/2): 0.733333
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.090909
+    Result(1-0): 0.363636
+    Result(1/2-1/2): 0.545455
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.111111
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.555556
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.125000
+    Result(1-0): 0.125000
+    Result(1/2-1/2): 0.750000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.062500
+    Result(1-0): 0.437500
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.077922
+    Result(1-0): 0.376623
+    Result(1/2-1/2): 0.545455
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.075000
+    Result(1-0): 0.425000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.200000
+    Result(1/2-1/2): 0.800000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.041667
+    Result(1-0): 0.125000
+    Result(1/2-1/2): 0.833333
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.121212
+    Result(1-0): 0.303030
+    Result(1/2-1/2): 0.575758
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.300000
+    Result(1-0): 0.400000
+    Result(1/2-1/2): 0.300000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.611111
+    Result(1/2-1/2): 0.388889
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.750000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.076923
+    Result(1-0): 0.076923
+    Result(1/2-1/2): 0.846154
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Nakamura, Hikaru, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.250000
+    Result(1-0): 0.125000
+    Result(1/2-1/2): 0.625000
+
+--- WhiteStreak ---
+  WhiteStreak(Negative): 0.174677
+  WhiteStreak(Neutral): 0.448579
+  WhiteStreak(Positive): 0.376744
+
+--- BlackStreak ---
+  BlackStreak(Negative): 0.250129
+  BlackStreak(Neutral): 0.568992
+  BlackStreak(Positive): 0.180879
+

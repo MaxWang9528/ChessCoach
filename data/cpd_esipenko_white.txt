@@ -1,0 +1,812 @@
+--- Player ---
+  Player(Esipenko, Andrey): 1.000000
+
+--- BigECO ---
+  [Player=Esipenko, Andrey]
+    BigECO(A00 Polish (Sokolsky) opening): 0.001362
+    BigECO(A04-A09 Reti opening): 0.021798
+    BigECO(A10-A39 English opening): 0.035422
+    BigECO(A40-A41 Queen's pawn): 0.021798
+    BigECO(A43-A44 Old Benoni defence): 0.005450
+    BigECO(A45-A46 Queen's pawn game): 0.040872
+    BigECO(A47 Queen's Indian defence): 0.004087
+    BigECO(A48-A49 King's Indian, East Indian defence): 0.004087
+    BigECO(A50 Queen's pawn game): 0.006812
+    BigECO(A56 Benoni defence): 0.001362
+    BigECO(A57-A59 Benko gambit): 0.001362
+    BigECO(A60-A79 Benoni defence): 0.004087
+    BigECO(A80-A99 Dutch): 0.002725
+    BigECO(B00 King's pawn opening): 0.001362
+    BigECO(B01 Scandinavian defence): 0.004087
+    BigECO(B06 Robatsch (modern) defence): 0.001362
+    BigECO(B07-B09 Pirc defence): 0.002725
+    BigECO(B10-B19 Caro-Kann defence): 0.025886
+    BigECO(B20-B99 Sicilian defence): 0.151226
+    BigECO(C00-C19 French defence): 0.019074
+    BigECO(C23-C24 Bishop's opening): 0.002725
+    BigECO(C40 King's knight opening): 0.001362
+    BigECO(C41 Philidor's defence): 0.004087
+    BigECO(C42-C43 Petrov's defence): 0.032698
+    BigECO(C45 Scotch game): 0.002725
+    BigECO(C46 Three knights game): 0.004087
+    BigECO(C47-C49 Four knights, Scotch variation): 0.001362
+    BigECO(C50 Italian Game): 0.035422
+    BigECO(C53-C54 Giuoco Piano): 0.021798
+    BigECO(C55-C59 Two knights defence): 0.019074
+    BigECO(C60-C99 Ruy Lopez (Spanish opening)): 0.094005
+    BigECO(D00 Queen's pawn game): 0.004087
+    BigECO(D02 Queen's pawn game): 0.039510
+    BigECO(D07-D09 QGD, Chigorin defence): 0.001362
+    BigECO(D10-D15 QGD Slav defence): 0.035422
+    BigECO(D16 QGD Slav accepted, Alapin variation): 0.002725
+    BigECO(D17-D19 QGD Slav, Czech defence): 0.005450
+    BigECO(D20-D29 Queen's gambit accepted): 0.020436
+    BigECO(D30-D42 Queen's gambit declined): 0.083106
+    BigECO(D43-D49 QGD semi-Slav): 0.024523
+    BigECO(D50-D69 QGD, 4.Bg5): 0.002725
+    BigECO(D70-D79 Neo-Gruenfeld defence): 0.019074
+    BigECO(D80-D99 Gruenfeld defence): 0.029973
+    BigECO(E00 Queen's pawn game): 0.010899
+    BigECO(E01-E09 Catalan, closed): 0.036785
+    BigECO(E10 Queen's pawn game): 0.016349
+    BigECO(E11 Bogo-Indian defence): 0.016349
+    BigECO(E12-E19 Queen's Indian defence): 0.024523
+    BigECO(E20-E59 Nimzo-Indian defence): 0.017711
+    BigECO(E60-E99 King's Indian defence): 0.032698
+
+--- QueenTraded ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Esipenko, Andrey]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=A04-A09 Reti opening, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=A10-A39 English opening, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=A40-A41 Queen's pawn, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.625000
+    QueenTraded(True): 0.375000
+  [BigECO=A43-A44 Old Benoni defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=A45-A46 Queen's pawn game, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.600000
+    QueenTraded(True): 0.400000
+  [BigECO=A47 Queen's Indian defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.666667
+    QueenTraded(True): 0.333333
+  [BigECO=A48-A49 King's Indian, East Indian defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=A50 Queen's pawn game, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.400000
+    QueenTraded(True): 0.600000
+  [BigECO=A56 Benoni defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=A57-A59 Benko gambit, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=A60-A79 Benoni defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=A80-A99 Dutch, Player=Esipenko, Andrey]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=B00 King's pawn opening, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=B01 Scandinavian defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=B06 Robatsch (modern) defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=B07-B09 Pirc defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=B10-B19 Caro-Kann defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.473684
+    QueenTraded(True): 0.526316
+  [BigECO=B20-B99 Sicilian defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.630631
+    QueenTraded(True): 0.369369
+  [BigECO=C00-C19 French defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.357143
+    QueenTraded(True): 0.642857
+  [BigECO=C23-C24 Bishop's opening, Player=Esipenko, Andrey]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=C40 King's knight opening, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=C41 Philidor's defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.666667
+    QueenTraded(True): 0.333333
+  [BigECO=C42-C43 Petrov's defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.416667
+    QueenTraded(True): 0.583333
+  [BigECO=C45 Scotch game, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=C46 Three knights game, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=C50 Italian Game, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.576923
+    QueenTraded(True): 0.423077
+  [BigECO=C53-C54 Giuoco Piano, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.375000
+    QueenTraded(True): 0.625000
+  [BigECO=C55-C59 Two knights defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Esipenko, Andrey]
+    QueenTraded(False): 0.579710
+    QueenTraded(True): 0.420290
+  [BigECO=D00 Queen's pawn game, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=D02 Queen's pawn game, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.551724
+    QueenTraded(True): 0.448276
+  [BigECO=D07-D09 QGD, Chigorin defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=D10-D15 QGD Slav defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.423077
+    QueenTraded(True): 0.576923
+  [BigECO=D16 QGD Slav accepted, Alapin variation, Player=Esipenko, Andrey]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=D17-D19 QGD Slav, Czech defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=D20-D29 Queen's gambit accepted, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.266667
+    QueenTraded(True): 0.733333
+  [BigECO=D30-D42 Queen's gambit declined, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.508197
+    QueenTraded(True): 0.491803
+  [BigECO=D43-D49 QGD semi-Slav, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.666667
+    QueenTraded(True): 0.333333
+  [BigECO=D50-D69 QGD, 4.Bg5, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.642857
+    QueenTraded(True): 0.357143
+  [BigECO=D80-D99 Gruenfeld defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.181818
+    QueenTraded(True): 0.818182
+  [BigECO=E00 Queen's pawn game, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.875000
+    QueenTraded(True): 0.125000
+  [BigECO=E01-E09 Catalan, closed, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.370370
+    QueenTraded(True): 0.629630
+  [BigECO=E10 Queen's pawn game, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.583333
+    QueenTraded(True): 0.416667
+  [BigECO=E11 Bogo-Indian defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.250000
+    QueenTraded(True): 0.750000
+  [BigECO=E12-E19 Queen's Indian defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.444444
+    QueenTraded(True): 0.555556
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.538462
+    QueenTraded(True): 0.461538
+  [BigECO=E60-E99 King's Indian defence, Player=Esipenko, Andrey]
+    QueenTraded(False): 0.375000
+    QueenTraded(True): 0.625000
+
+--- Balanced ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Esipenko, Andrey]
+    Balanced(False): 0.000000
+    Balanced(True): 1.000000
+  [BigECO=A04-A09 Reti opening, Player=Esipenko, Andrey]
+    Balanced(False): 0.687500
+    Balanced(True): 0.312500
+  [BigECO=A10-A39 English opening, Player=Esipenko, Andrey]
+    Balanced(False): 0.769231
+    Balanced(True): 0.230769
+  [BigECO=A40-A41 Queen's pawn, Player=Esipenko, Andrey]
+    Balanced(False): 0.812500
+    Balanced(True): 0.187500
+  [BigECO=A43-A44 Old Benoni defence, Player=Esipenko, Andrey]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A45-A46 Queen's pawn game, Player=Esipenko, Andrey]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=A47 Queen's Indian defence, Player=Esipenko, Andrey]
+    Balanced(False): 0.333333
+    Balanced(True): 0.666667
+  [BigECO=A48-A49 King's Indian, East Indian defence, Player=Esipenko, Andrey]
+    Balanced(False): 0.333333
+    Balanced(True): 0.666667
+  [BigECO=A50 Queen's pawn game, Player=Esipenko, Andrey]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A56 Benoni defence, Player=Esipenko, Andrey]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A57-A59 Benko gambit, Player=Esipenko, Andrey]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A60-A79 Benoni defence, Player=Esipenko, Andrey]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=A80-A99 Dutch, Player=Esipenko, Andrey]
+    Balanced(False): 0.000000
+    Balanced(True): 1.000000
+  [BigECO=B00 King's pawn opening, Player=Esipenko, Andrey]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=B01 Scandinavian defence, Player=Esipenko, Andrey]
+    Balanced(False): 0.333333
+    Balanced(True): 0.666667
+  [BigECO=B06 Robatsch (modern) defence, Player=Esipenko, Andrey]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=B07-B09 Pirc defence, Player=Esipenko, Andrey]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=B10-B19 Caro-Kann defence, Player=Esipenko, Andrey]
+    Balanced(False): 0.736842
+    Balanced(True): 0.263158
+  [BigECO=B20-B99 Sicilian defence, Player=Esipenko, Andrey]
+    Balanced(False): 0.720721
+    Balanced(True): 0.279279
+  [BigECO=C00-C19 French defence, Player=Esipenko, Andrey]
+    Balanced(False): 0.785714
+    Balanced(True): 0.214286
+  [BigECO=C23-C24 Bishop's opening, Player=Esipenko, Andrey]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C40 King's knight opening, Player=Esipenko, Andrey]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C41 Philidor's defence, Player=Esipenko, Andrey]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=C42-C43 Petrov's defence, Player=Esipenko, Andrey]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=C45 Scotch game, Player=Esipenko, Andrey]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=C46 Three knights game, Player=Esipenko, Andrey]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Esipenko, Andrey]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C50 Italian Game, Player=Esipenko, Andrey]
+    Balanced(False): 0.576923
+    Balanced(True): 0.423077
+  [BigECO=C53-C54 Giuoco Piano, Player=Esipenko, Andrey]
+    Balanced(False): 0.625000
+    Balanced(True): 0.375000
+  [BigECO=C55-C59 Two knights defence, Player=Esipenko, Andrey]
+    Balanced(False): 0.785714
+    Balanced(True): 0.214286
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Esipenko, Andrey]
+    Balanced(False): 0.681159
+    Balanced(True): 0.318841
+  [BigECO=D00 Queen's pawn game, Player=Esipenko, Andrey]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D02 Queen's pawn game, Player=Esipenko, Andrey]
+    Balanced(False): 0.655172
+    Balanced(True): 0.344828
+  [BigECO=D07-D09 QGD, Chigorin defence, Player=Esipenko, Andrey]
+    Balanced(False): 0.000000
+    Balanced(True): 1.000000
+  [BigECO=D10-D15 QGD Slav defence, Player=Esipenko, Andrey]
+    Balanced(False): 0.807692
+    Balanced(True): 0.192308
+  [BigECO=D16 QGD Slav accepted, Alapin variation, Player=Esipenko, Andrey]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D17-D19 QGD Slav, Czech defence, Player=Esipenko, Andrey]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D20-D29 Queen's gambit accepted, Player=Esipenko, Andrey]
+    Balanced(False): 0.866667
+    Balanced(True): 0.133333
+  [BigECO=D30-D42 Queen's gambit declined, Player=Esipenko, Andrey]
+    Balanced(False): 0.819672
+    Balanced(True): 0.180328
+  [BigECO=D43-D49 QGD semi-Slav, Player=Esipenko, Andrey]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=D50-D69 QGD, 4.Bg5, Player=Esipenko, Andrey]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Esipenko, Andrey]
+    Balanced(False): 0.428571
+    Balanced(True): 0.571429
+  [BigECO=D80-D99 Gruenfeld defence, Player=Esipenko, Andrey]
+    Balanced(False): 0.863636
+    Balanced(True): 0.136364
+  [BigECO=E00 Queen's pawn game, Player=Esipenko, Andrey]
+    Balanced(False): 0.750000
+    Balanced(True): 0.250000
+  [BigECO=E01-E09 Catalan, closed, Player=Esipenko, Andrey]
+    Balanced(False): 0.814815
+    Balanced(True): 0.185185
+  [BigECO=E10 Queen's pawn game, Player=Esipenko, Andrey]
+    Balanced(False): 0.416667
+    Balanced(True): 0.583333
+  [BigECO=E11 Bogo-Indian defence, Player=Esipenko, Andrey]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=E12-E19 Queen's Indian defence, Player=Esipenko, Andrey]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Esipenko, Andrey]
+    Balanced(False): 0.769231
+    Balanced(True): 0.230769
+  [BigECO=E60-E99 King's Indian defence, Player=Esipenko, Andrey]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+
+--- CastleBalance ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Esipenko, Andrey]
+    CastleBalance(False): 1.000000
+    CastleBalance(True): 0.000000
+  [BigECO=A04-A09 Reti opening, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.125000
+    CastleBalance(True): 0.875000
+  [BigECO=A10-A39 English opening, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.269231
+    CastleBalance(True): 0.730769
+  [BigECO=A40-A41 Queen's pawn, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.062500
+    CastleBalance(True): 0.937500
+  [BigECO=A43-A44 Old Benoni defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.250000
+    CastleBalance(True): 0.750000
+  [BigECO=A45-A46 Queen's pawn game, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.233333
+    CastleBalance(True): 0.766667
+  [BigECO=A47 Queen's Indian defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.333333
+    CastleBalance(True): 0.666667
+  [BigECO=A48-A49 King's Indian, East Indian defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A50 Queen's pawn game, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.200000
+    CastleBalance(True): 0.800000
+  [BigECO=A56 Benoni defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 1.000000
+    CastleBalance(True): 0.000000
+  [BigECO=A57-A59 Benko gambit, Player=Esipenko, Andrey]
+    CastleBalance(False): 1.000000
+    CastleBalance(True): 0.000000
+  [BigECO=A60-A79 Benoni defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A80-A99 Dutch, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=B00 King's pawn opening, Player=Esipenko, Andrey]
+    CastleBalance(False): 1.000000
+    CastleBalance(True): 0.000000
+  [BigECO=B01 Scandinavian defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.333333
+    CastleBalance(True): 0.666667
+  [BigECO=B06 Robatsch (modern) defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 1.000000
+    CastleBalance(True): 0.000000
+  [BigECO=B07-B09 Pirc defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=B10-B19 Caro-Kann defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.578947
+    CastleBalance(True): 0.421053
+  [BigECO=B20-B99 Sicilian defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.351351
+    CastleBalance(True): 0.648649
+  [BigECO=C00-C19 French defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.785714
+    CastleBalance(True): 0.214286
+  [BigECO=C23-C24 Bishop's opening, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C40 King's knight opening, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C41 Philidor's defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.333333
+    CastleBalance(True): 0.666667
+  [BigECO=C42-C43 Petrov's defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.208333
+    CastleBalance(True): 0.791667
+  [BigECO=C45 Scotch game, Player=Esipenko, Andrey]
+    CastleBalance(False): 1.000000
+    CastleBalance(True): 0.000000
+  [BigECO=C46 Three knights game, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.333333
+    CastleBalance(True): 0.666667
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C50 Italian Game, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.153846
+    CastleBalance(True): 0.846154
+  [BigECO=C53-C54 Giuoco Piano, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C55-C59 Two knights defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.214286
+    CastleBalance(True): 0.785714
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Esipenko, Andrey]
+    CastleBalance(False): 0.101449
+    CastleBalance(True): 0.898551
+  [BigECO=D00 Queen's pawn game, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.333333
+    CastleBalance(True): 0.666667
+  [BigECO=D02 Queen's pawn game, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.137931
+    CastleBalance(True): 0.862069
+  [BigECO=D07-D09 QGD, Chigorin defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=D10-D15 QGD Slav defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.307692
+    CastleBalance(True): 0.692308
+  [BigECO=D16 QGD Slav accepted, Alapin variation, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=D17-D19 QGD Slav, Czech defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.250000
+    CastleBalance(True): 0.750000
+  [BigECO=D20-D29 Queen's gambit accepted, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.400000
+    CastleBalance(True): 0.600000
+  [BigECO=D30-D42 Queen's gambit declined, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.196721
+    CastleBalance(True): 0.803279
+  [BigECO=D43-D49 QGD semi-Slav, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.055556
+    CastleBalance(True): 0.944444
+  [BigECO=D50-D69 QGD, 4.Bg5, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.500000
+    CastleBalance(True): 0.500000
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.071429
+    CastleBalance(True): 0.928571
+  [BigECO=D80-D99 Gruenfeld defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.318182
+    CastleBalance(True): 0.681818
+  [BigECO=E00 Queen's pawn game, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E01-E09 Catalan, closed, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.111111
+    CastleBalance(True): 0.888889
+  [BigECO=E10 Queen's pawn game, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E11 Bogo-Indian defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.083333
+    CastleBalance(True): 0.916667
+  [BigECO=E12-E19 Queen's Indian defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.166667
+    CastleBalance(True): 0.833333
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E60-E99 King's Indian defence, Player=Esipenko, Andrey]
+    CastleBalance(False): 0.416667
+    CastleBalance(True): 0.583333
+
+--- Result ---
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 1.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.166667
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.333333
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.400000
+    Result(1-0): 0.600000
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.500000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.714286
+    Result(1/2-1/2): 0.285714
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.142857
+    Result(1-0): 0.571429
+    Result(1/2-1/2): 0.285714
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.800000
+    Result(1/2-1/2): 0.200000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.052632
+    Result(1-0): 0.473684
+    Result(1/2-1/2): 0.473684
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.133333
+    Result(1-0): 0.600000
+    Result(1/2-1/2): 0.266667
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.384615
+    Result(1-0): 0.153846
+    Result(1/2-1/2): 0.461538
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.047619
+    Result(1-0): 0.428571
+    Result(1/2-1/2): 0.523810
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.160000
+    Result(1-0): 0.440000
+    Result(1/2-1/2): 0.400000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 1.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.095238
+    Result(1-0): 0.666667
+    Result(1/2-1/2): 0.238095
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.250000
+    Result(1-0): 0.750000
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.750000
+    Result(1/2-1/2): 0.250000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.205882
+    Result(1-0): 0.411765
+    Result(1/2-1/2): 0.382353
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.125000
+    Result(1-0): 0.625000
+    Result(1/2-1/2): 0.250000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.130435
+    Result(1-0): 0.478261
+    Result(1/2-1/2): 0.391304
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.065217
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.434783
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.035714
+    Result(1-0): 0.750000
+    Result(1/2-1/2): 0.214286
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.190476
+    Result(1-0): 0.285714
+    Result(1/2-1/2): 0.523810
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.178571
+    Result(1-0): 0.321429
+    Result(1/2-1/2): 0.500000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.113636
+    Result(1-0): 0.477273
+    Result(1/2-1/2): 0.409091
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.500000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.400000
+    Result(1-0): 0.400000
+    Result(1/2-1/2): 0.200000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.800000
+    Result(1/2-1/2): 0.200000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.250000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.500000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.250000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.500000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.200000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.800000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.400000
+    Result(1-0): 0.200000
+    Result(1/2-1/2): 0.400000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.666667
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.333333
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.312500
+    Result(1-0): 0.375000
+    Result(1/2-1/2): 0.312500
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.388889
+    Result(1-0): 0.277778
+    Result(1/2-1/2): 0.333333
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.333333
+    Result(1-0): 0.266667
+    Result(1/2-1/2): 0.400000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.222222
+    Result(1-0): 0.222222
+    Result(1/2-1/2): 0.555556
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 1.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.055556
+    Result(1-0): 0.277778
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.125000
+    Result(1-0): 0.625000
+    Result(1/2-1/2): 0.250000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.166667
+    Result(1/2-1/2): 0.833333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.111111
+    Result(1-0): 0.222222
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.142857
+    Result(1-0): 0.571429
+    Result(1/2-1/2): 0.285714
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.200000
+    Result(1-0): 0.800000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 1.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 1.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.100000
+    Result(1-0): 0.300000
+    Result(1/2-1/2): 0.600000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.025000
+    Result(1-0): 0.425000
+    Result(1/2-1/2): 0.550000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.111111
+    Result(1-0): 0.555556
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.666667
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.117647
+    Result(1/2-1/2): 0.882353
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.285714
+    Result(1/2-1/2): 0.714286
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.500000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 1.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 1.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.285714
+    Result(1-0): 0.285714
+    Result(1/2-1/2): 0.428571
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.285714
+    Result(1/2-1/2): 0.714286
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Esipenko, Andrey, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+
+--- WhiteStreak ---
+  WhiteStreak(Negative): 0.204360
+  WhiteStreak(Neutral): 0.468665
+  WhiteStreak(Positive): 0.326975
+
+--- BlackStreak ---
+  BlackStreak(Negative): 0.245232
+  BlackStreak(Neutral): 0.580381
+  BlackStreak(Positive): 0.174387
+

@@ -1,0 +1,74 @@
+Enumeration Example: Nakamura White
+Query: P(Result=1-0 | BigECO=Sicilian, WS=Negative, BS=Positive)
+
+=== CONSTANT TERMS (cancel between numerator and denominator) ===
+
+P(Player=Nakamura) = 1.000000
+P(BigECO=Sicilian | Nak) = 0.154522
+P(WS=Negative) = 0.174677
+P(BS=Positive) = 0.180879
+
+=== HIDDEN VARIABLE CPDs (conditioned on BigECO=Sicilian) ===
+
+P(QT=False | Nak, Sic) = 0.458194
+P(QT=True  | Nak, Sic) = 0.541806
+
+P(Bal=False | Nak, Sic) = 0.752508
+P(Bal=True  | Nak, Sic) = 0.247492
+
+P(CB=False | Nak, Sic) = 0.367893
+P(CB=True  | Nak, Sic) = 0.632107
+
+=== RESULT CPD (all 8 combos with WS=Negative, BS=Positive) ===
+
+1. QT=False, Bal=False, CB=False:
+   P(1-0)     = 0.375000
+   P(0-1)     = 0.312500
+   P(1/2-1/2) = 0.312500
+
+2. QT=False, Bal=False, CB=True:
+   P(1-0)     = 0.391304
+   P(0-1)     = 0.304348
+   P(1/2-1/2) = 0.304348
+
+3. QT=False, Bal=True, CB=False:
+   P(1-0)     = 0.333333
+   P(0-1)     = 0.333333
+   P(1/2-1/2) = 0.333333
+
+4. QT=False, Bal=True, CB=True:
+   P(1-0)     = 0.400000
+   P(0-1)     = 0.300000
+   P(1/2-1/2) = 0.300000
+
+5. QT=True, Bal=False, CB=False:
+   P(1-0)     = 0.400000
+   P(0-1)     = 0.200000
+   P(1/2-1/2) = 0.400000
+
+6. QT=True, Bal=False, CB=True:
+   P(1-0)     = 0.434783
+   P(0-1)     = 0.282609
+   P(1/2-1/2) = 0.282609
+
+7. QT=True, Bal=True, CB=False:
+   P(1-0)     = 0.500000
+   P(0-1)     = 0.000000
+   P(1/2-1/2) = 0.500000
+
+8. QT=True, Bal=True, CB=True:
+   P(1-0)     = 0.250000
+   P(0-1)     = 0.000000
+   P(1/2-1/2) = 0.750000
+
+=== CALCULATION ===
+
+For each combo i, compute:
+  weight_i = P(QT_i | Nak, Sic) * P(Bal_i | Nak, Sic) * P(CB_i | Nak, Sic)
+
+Numerator   = SUM_i [ weight_i * P(Result=1-0 | combo_i, Nak, Neg, Pos) ]
+Denominator = SUM_i [ weight_i * P(Result=1-0 | ...) ]
+            + SUM_i [ weight_i * P(Result=0-1 | ...) ]
+            + SUM_i [ weight_i * P(Result=1/2-1/2 | ...) ]
+
+Answer = Numerator / Denominator

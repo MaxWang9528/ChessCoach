@@ -1,0 +1,682 @@
+--- Player ---
+  Player(Bluebaum, Matthias): 1.000000
+
+--- BigECO ---
+  [Player=Bluebaum, Matthias]
+    BigECO(A00 Polish (Sokolsky) opening): 0.005369
+    BigECO(A01 Nimzovich-Larsen attack): 0.002685
+    BigECO(A02-A03 Bird's opening): 0.004027
+    BigECO(A04-A09 Reti opening): 0.077852
+    BigECO(A10-A39 English opening): 0.088591
+    BigECO(A40-A41 Queen's pawn): 0.001342
+    BigECO(A45-A46 Queen's pawn game): 0.014765
+    BigECO(A56 Benoni defence): 0.001342
+    BigECO(A57-A59 Benko gambit): 0.001342
+    BigECO(B00 King's pawn opening): 0.001342
+    BigECO(B10-B19 Caro-Kann defence): 0.103356
+    BigECO(B20-B99 Sicilian defence): 0.002685
+    BigECO(C00-C19 French defence): 0.310067
+    BigECO(C23-C24 Bishop's opening): 0.002685
+    BigECO(C25-C29 Vienna game): 0.001342
+    BigECO(C42-C43 Petrov's defence): 0.036242
+    BigECO(C45 Scotch game): 0.002685
+    BigECO(C47-C49 Four knights, Scotch variation): 0.005369
+    BigECO(C55-C59 Two knights defence): 0.005369
+    BigECO(C60-C99 Ruy Lopez (Spanish opening)): 0.005369
+    BigECO(D00 Queen's pawn game): 0.016107
+    BigECO(D02 Queen's pawn game): 0.029530
+    BigECO(D04-D05 Queen's pawn game): 0.005369
+    BigECO(D10-D15 QGD Slav defence): 0.042953
+    BigECO(D16 QGD Slav accepted, Alapin variation): 0.001342
+    BigECO(D17-D19 QGD Slav, Czech defence): 0.017450
+    BigECO(D30-D42 Queen's gambit declined): 0.119463
+    BigECO(D43-D49 QGD semi-Slav): 0.020134
+    BigECO(D50-D69 QGD, 4.Bg5): 0.004027
+    BigECO(D70-D79 Neo-Gruenfeld defence): 0.005369
+    BigECO(E00 Queen's pawn game): 0.006711
+    BigECO(E01-E09 Catalan, closed): 0.017450
+    BigECO(E10 Queen's pawn game): 0.012081
+    BigECO(E11 Bogo-Indian defence): 0.001342
+    BigECO(E12-E19 Queen's Indian defence): 0.001342
+    BigECO(E20-E59 Nimzo-Indian defence): 0.024161
+    BigECO(E60-E99 King's Indian defence): 0.001342
+
+--- QueenTraded ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.250000
+    QueenTraded(True): 0.750000
+  [BigECO=A01 Nimzovich-Larsen attack, Player=Bluebaum, Matthias]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=A02-A03 Bird's opening, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=A04-A09 Reti opening, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.396552
+    QueenTraded(True): 0.603448
+  [BigECO=A10-A39 English opening, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=A40-A41 Queen's pawn, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=A45-A46 Queen's pawn game, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.363636
+    QueenTraded(True): 0.636364
+  [BigECO=A56 Benoni defence, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=A57-A59 Benko gambit, Player=Bluebaum, Matthias]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=B00 King's pawn opening, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=B10-B19 Caro-Kann defence, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.441558
+    QueenTraded(True): 0.558442
+  [BigECO=B20-B99 Sicilian defence, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=C00-C19 French defence, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.441558
+    QueenTraded(True): 0.558442
+  [BigECO=C23-C24 Bishop's opening, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=C25-C29 Vienna game, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=C42-C43 Petrov's defence, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.296296
+    QueenTraded(True): 0.703704
+  [BigECO=C45 Scotch game, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.250000
+    QueenTraded(True): 0.750000
+  [BigECO=C55-C59 Two knights defence, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=D00 Queen's pawn game, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.583333
+    QueenTraded(True): 0.416667
+  [BigECO=D02 Queen's pawn game, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.454545
+    QueenTraded(True): 0.545455
+  [BigECO=D04-D05 Queen's pawn game, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=D10-D15 QGD Slav defence, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.531250
+    QueenTraded(True): 0.468750
+  [BigECO=D16 QGD Slav accepted, Alapin variation, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=D17-D19 QGD Slav, Czech defence, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.384615
+    QueenTraded(True): 0.615385
+  [BigECO=D30-D42 Queen's gambit declined, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.382022
+    QueenTraded(True): 0.617978
+  [BigECO=D43-D49 QGD semi-Slav, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.600000
+    QueenTraded(True): 0.400000
+  [BigECO=D50-D69 QGD, 4.Bg5, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.666667
+    QueenTraded(True): 0.333333
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=E00 Queen's pawn game, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.600000
+    QueenTraded(True): 0.400000
+  [BigECO=E01-E09 Catalan, closed, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.615385
+    QueenTraded(True): 0.384615
+  [BigECO=E10 Queen's pawn game, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.666667
+    QueenTraded(True): 0.333333
+  [BigECO=E11 Bogo-Indian defence, Player=Bluebaum, Matthias]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=E12-E19 Queen's Indian defence, Player=Bluebaum, Matthias]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.222222
+    QueenTraded(True): 0.777778
+  [BigECO=E60-E99 King's Indian defence, Player=Bluebaum, Matthias]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+
+--- Balanced ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Bluebaum, Matthias]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A01 Nimzovich-Larsen attack, Player=Bluebaum, Matthias]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A02-A03 Bird's opening, Player=Bluebaum, Matthias]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=A04-A09 Reti opening, Player=Bluebaum, Matthias]
+    Balanced(False): 0.724138
+    Balanced(True): 0.275862
+  [BigECO=A10-A39 English opening, Player=Bluebaum, Matthias]
+    Balanced(False): 0.742424
+    Balanced(True): 0.257576
+  [BigECO=A40-A41 Queen's pawn, Player=Bluebaum, Matthias]
+    Balanced(False): 0.000000
+    Balanced(True): 1.000000
+  [BigECO=A45-A46 Queen's pawn game, Player=Bluebaum, Matthias]
+    Balanced(False): 0.909091
+    Balanced(True): 0.090909
+  [BigECO=A56 Benoni defence, Player=Bluebaum, Matthias]
+    Balanced(False): 0.000000
+    Balanced(True): 1.000000
+  [BigECO=A57-A59 Benko gambit, Player=Bluebaum, Matthias]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=B00 King's pawn opening, Player=Bluebaum, Matthias]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=B10-B19 Caro-Kann defence, Player=Bluebaum, Matthias]
+    Balanced(False): 0.701299
+    Balanced(True): 0.298701
+  [BigECO=B20-B99 Sicilian defence, Player=Bluebaum, Matthias]
+    Balanced(False): 0.000000
+    Balanced(True): 1.000000
+  [BigECO=C00-C19 French defence, Player=Bluebaum, Matthias]
+    Balanced(False): 0.761905
+    Balanced(True): 0.238095
+  [BigECO=C23-C24 Bishop's opening, Player=Bluebaum, Matthias]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=C25-C29 Vienna game, Player=Bluebaum, Matthias]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C42-C43 Petrov's defence, Player=Bluebaum, Matthias]
+    Balanced(False): 0.555556
+    Balanced(True): 0.444444
+  [BigECO=C45 Scotch game, Player=Bluebaum, Matthias]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Bluebaum, Matthias]
+    Balanced(False): 0.250000
+    Balanced(True): 0.750000
+  [BigECO=C55-C59 Two knights defence, Player=Bluebaum, Matthias]
+    Balanced(False): 0.750000
+    Balanced(True): 0.250000
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Bluebaum, Matthias]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=D00 Queen's pawn game, Player=Bluebaum, Matthias]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=D02 Queen's pawn game, Player=Bluebaum, Matthias]
+    Balanced(False): 0.590909
+    Balanced(True): 0.409091
+  [BigECO=D04-D05 Queen's pawn game, Player=Bluebaum, Matthias]
+    Balanced(False): 0.750000
+    Balanced(True): 0.250000
+  [BigECO=D10-D15 QGD Slav defence, Player=Bluebaum, Matthias]
+    Balanced(False): 0.812500
+    Balanced(True): 0.187500
+  [BigECO=D16 QGD Slav accepted, Alapin variation, Player=Bluebaum, Matthias]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D17-D19 QGD Slav, Czech defence, Player=Bluebaum, Matthias]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D30-D42 Queen's gambit declined, Player=Bluebaum, Matthias]
+    Balanced(False): 0.685393
+    Balanced(True): 0.314607
+  [BigECO=D43-D49 QGD semi-Slav, Player=Bluebaum, Matthias]
+    Balanced(False): 0.533333
+    Balanced(True): 0.466667
+  [BigECO=D50-D69 QGD, 4.Bg5, Player=Bluebaum, Matthias]
+    Balanced(False): 0.333333
+    Balanced(True): 0.666667
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Bluebaum, Matthias]
+    Balanced(False): 0.000000
+    Balanced(True): 1.000000
+  [BigECO=E00 Queen's pawn game, Player=Bluebaum, Matthias]
+    Balanced(False): 0.800000
+    Balanced(True): 0.200000
+  [BigECO=E01-E09 Catalan, closed, Player=Bluebaum, Matthias]
+    Balanced(False): 0.846154
+    Balanced(True): 0.153846
+  [BigECO=E10 Queen's pawn game, Player=Bluebaum, Matthias]
+    Balanced(False): 0.555556
+    Balanced(True): 0.444444
+  [BigECO=E11 Bogo-Indian defence, Player=Bluebaum, Matthias]
+    Balanced(False): 0.000000
+    Balanced(True): 1.000000
+  [BigECO=E12-E19 Queen's Indian defence, Player=Bluebaum, Matthias]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Bluebaum, Matthias]
+    Balanced(False): 0.722222
+    Balanced(True): 0.277778
+  [BigECO=E60-E99 King's Indian defence, Player=Bluebaum, Matthias]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+
+--- CastleBalance ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A01 Nimzovich-Larsen attack, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.500000
+    CastleBalance(True): 0.500000
+  [BigECO=A02-A03 Bird's opening, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A04-A09 Reti opening, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.155172
+    CastleBalance(True): 0.844828
+  [BigECO=A10-A39 English opening, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.196970
+    CastleBalance(True): 0.803030
+  [BigECO=A40-A41 Queen's pawn, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A45-A46 Queen's pawn game, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.545455
+    CastleBalance(True): 0.454545
+  [BigECO=A56 Benoni defence, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A57-A59 Benko gambit, Player=Bluebaum, Matthias]
+    CastleBalance(False): 1.000000
+    CastleBalance(True): 0.000000
+  [BigECO=B00 King's pawn opening, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=B10-B19 Caro-Kann defence, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.441558
+    CastleBalance(True): 0.558442
+  [BigECO=B20-B99 Sicilian defence, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C00-C19 French defence, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.437229
+    CastleBalance(True): 0.562771
+  [BigECO=C23-C24 Bishop's opening, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C25-C29 Vienna game, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C42-C43 Petrov's defence, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.185185
+    CastleBalance(True): 0.814815
+  [BigECO=C45 Scotch game, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.500000
+    CastleBalance(True): 0.500000
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C55-C59 Two knights defence, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.250000
+    CastleBalance(True): 0.750000
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=D00 Queen's pawn game, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.333333
+    CastleBalance(True): 0.666667
+  [BigECO=D02 Queen's pawn game, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.181818
+    CastleBalance(True): 0.818182
+  [BigECO=D04-D05 Queen's pawn game, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=D10-D15 QGD Slav defence, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.312500
+    CastleBalance(True): 0.687500
+  [BigECO=D16 QGD Slav accepted, Alapin variation, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=D17-D19 QGD Slav, Czech defence, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.230769
+    CastleBalance(True): 0.769231
+  [BigECO=D30-D42 Queen's gambit declined, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.224719
+    CastleBalance(True): 0.775281
+  [BigECO=D43-D49 QGD semi-Slav, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.066667
+    CastleBalance(True): 0.933333
+  [BigECO=D50-D69 QGD, 4.Bg5, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E00 Queen's pawn game, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E01-E09 Catalan, closed, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E10 Queen's pawn game, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E11 Bogo-Indian defence, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E12-E19 Queen's Indian defence, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.277778
+    CastleBalance(True): 0.722222
+  [BigECO=E60-E99 King's Indian defence, Player=Bluebaum, Matthias]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+
+--- Result ---
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 1.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.500000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.500000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.285714
+    Result(1-0): 0.142857
+    Result(1/2-1/2): 0.571429
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.285714
+    Result(1-0): 0.285714
+    Result(1/2-1/2): 0.428571
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.285714
+    Result(1-0): 0.428571
+    Result(1/2-1/2): 0.285714
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.600000
+    Result(1-0): 0.400000
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.615385
+    Result(1-0): 0.153846
+    Result(1/2-1/2): 0.230769
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.400000
+    Result(1-0): 0.600000
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.428571
+    Result(1-0): 0.142857
+    Result(1/2-1/2): 0.428571
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.478261
+    Result(1-0): 0.173913
+    Result(1/2-1/2): 0.347826
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.250000
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.416667
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.714286
+    Result(1-0): 0.142857
+    Result(1/2-1/2): 0.142857
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.533333
+    Result(1-0): 0.066667
+    Result(1/2-1/2): 0.400000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.666667
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.166667
+    Result(1-0): 0.166667
+    Result(1/2-1/2): 0.666667
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.400000
+    Result(1-0): 0.360000
+    Result(1/2-1/2): 0.240000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.400000
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.266667
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.420000
+    Result(1-0): 0.300000
+    Result(1/2-1/2): 0.280000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.800000
+    Result(1/2-1/2): 0.200000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.166667
+    Result(1/2-1/2): 0.500000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.290323
+    Result(1-0): 0.193548
+    Result(1/2-1/2): 0.516129
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.133333
+    Result(1-0): 0.266667
+    Result(1/2-1/2): 0.600000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.181818
+    Result(1-0): 0.636364
+    Result(1/2-1/2): 0.181818
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.625000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.125000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.666667
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.142857
+    Result(1-0): 0.571429
+    Result(1/2-1/2): 0.285714
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.354839
+    Result(1-0): 0.354839
+    Result(1/2-1/2): 0.290323
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.500000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.250000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.500000
+    Result(1-0): 0.222222
+    Result(1/2-1/2): 0.277778
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.583333
+    Result(1-0): 0.166667
+    Result(1/2-1/2): 0.250000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.250000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.250000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.277778
+    Result(1/2-1/2): 0.388889
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.321429
+    Result(1-0): 0.160714
+    Result(1/2-1/2): 0.517857
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.166667
+    Result(1-0): 0.166667
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.500000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.571429
+    Result(1-0): 0.142857
+    Result(1/2-1/2): 0.285714
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.666667
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.100000
+    Result(1-0): 0.100000
+    Result(1/2-1/2): 0.800000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.125000
+    Result(1-0): 0.375000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.111111
+    Result(1/2-1/2): 0.888889
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.296296
+    Result(1-0): 0.185185
+    Result(1/2-1/2): 0.518519
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.200000
+    Result(1-0): 0.200000
+    Result(1/2-1/2): 0.600000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.142857
+    Result(1-0): 0.285714
+    Result(1/2-1/2): 0.571429
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.105263
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.894737
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.285714
+    Result(1-0): 0.142857
+    Result(1/2-1/2): 0.571429
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.500000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.090909
+    Result(1-0): 0.181818
+    Result(1/2-1/2): 0.727273
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.250000
+    Result(1-0): 0.100000
+    Result(1/2-1/2): 0.650000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.200000
+    Result(1-0): 0.400000
+    Result(1/2-1/2): 0.400000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.090909
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.909091
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.090909
+    Result(1-0): 0.181818
+    Result(1/2-1/2): 0.727273
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Bluebaum, Matthias, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+
+--- WhiteStreak ---
+  WhiteStreak(Negative): 0.242953
+  WhiteStreak(Neutral): 0.621477
+  WhiteStreak(Positive): 0.135570
+
+--- BlackStreak ---
+  BlackStreak(Negative): 0.157047
+  BlackStreak(Neutral): 0.444295
+  BlackStreak(Positive): 0.398658
+

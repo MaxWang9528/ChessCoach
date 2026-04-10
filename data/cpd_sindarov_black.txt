@@ -1,0 +1,732 @@
+--- Player ---
+  Player(Sindarov, Javokhir): 1.000000
+
+--- BigECO ---
+  [Player=Sindarov, Javokhir]
+    BigECO(A00 Polish (Sokolsky) opening): 0.002222
+    BigECO(A01 Nimzovich-Larsen attack): 0.002222
+    BigECO(A04-A09 Reti opening): 0.040000
+    BigECO(A10-A39 English opening): 0.064444
+    BigECO(A40-A41 Queen's pawn): 0.013333
+    BigECO(A42 Modern defence, Averbakh system): 0.002222
+    BigECO(A43-A44 Old Benoni defence): 0.002222
+    BigECO(A45-A46 Queen's pawn game): 0.020000
+    BigECO(A47 Queen's Indian defence): 0.006667
+    BigECO(A48-A49 King's Indian, East Indian defence): 0.048889
+    BigECO(A50 Queen's pawn game): 0.002222
+    BigECO(A56 Benoni defence): 0.026667
+    BigECO(A57-A59 Benko gambit): 0.011111
+    BigECO(A60-A79 Benoni defence): 0.008889
+    BigECO(B00 King's pawn opening): 0.004444
+    BigECO(B07-B09 Pirc defence): 0.006667
+    BigECO(B10-B19 Caro-Kann defence): 0.002222
+    BigECO(B20-B99 Sicilian defence): 0.131111
+    BigECO(C00-C19 French defence): 0.008889
+    BigECO(C20 King's pawn game): 0.002222
+    BigECO(C23-C24 Bishop's opening): 0.004444
+    BigECO(C25-C29 Vienna game): 0.006667
+    BigECO(C41 Philidor's defence): 0.020000
+    BigECO(C42-C43 Petrov's defence): 0.004444
+    BigECO(C44 King's pawn game): 0.008889
+    BigECO(C45 Scotch game): 0.006667
+    BigECO(C47-C49 Four knights, Scotch variation): 0.017778
+    BigECO(C50 Italian Game): 0.013333
+    BigECO(C53-C54 Giuoco Piano): 0.008889
+    BigECO(C55-C59 Two knights defence): 0.037778
+    BigECO(C60-C99 Ruy Lopez (Spanish opening)): 0.153333
+    BigECO(D01 Richter-Veresov attack): 0.004444
+    BigECO(D02 Queen's pawn game): 0.011111
+    BigECO(D20-D29 Queen's gambit accepted): 0.006667
+    BigECO(D30-D42 Queen's gambit declined): 0.020000
+    BigECO(D43-D49 QGD semi-Slav): 0.040000
+    BigECO(D50-D69 QGD, 4.Bg5): 0.002222
+    BigECO(D70-D79 Neo-Gruenfeld defence): 0.013333
+    BigECO(D80-D99 Gruenfeld defence): 0.051111
+    BigECO(E01-E09 Catalan, closed): 0.008889
+    BigECO(E20-E59 Nimzo-Indian defence): 0.006667
+    BigECO(E60-E99 King's Indian defence): 0.146667
+
+--- QueenTraded ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=A01 Nimzovich-Larsen attack, Player=Sindarov, Javokhir]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=A04-A09 Reti opening, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.277778
+    QueenTraded(True): 0.722222
+  [BigECO=A10-A39 English opening, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.517241
+    QueenTraded(True): 0.482759
+  [BigECO=A40-A41 Queen's pawn, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=A42 Modern defence, Averbakh system, Player=Sindarov, Javokhir]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=A43-A44 Old Benoni defence, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=A45-A46 Queen's pawn game, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.555556
+    QueenTraded(True): 0.444444
+  [BigECO=A47 Queen's Indian defence, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=A48-A49 King's Indian, East Indian defence, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.363636
+    QueenTraded(True): 0.636364
+  [BigECO=A50 Queen's pawn game, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=A56 Benoni defence, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.750000
+    QueenTraded(True): 0.250000
+  [BigECO=A57-A59 Benko gambit, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.600000
+    QueenTraded(True): 0.400000
+  [BigECO=A60-A79 Benoni defence, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.250000
+    QueenTraded(True): 0.750000
+  [BigECO=B00 King's pawn opening, Player=Sindarov, Javokhir]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=B07-B09 Pirc defence, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=B10-B19 Caro-Kann defence, Player=Sindarov, Javokhir]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=B20-B99 Sicilian defence, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.338983
+    QueenTraded(True): 0.661017
+  [BigECO=C00-C19 French defence, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=C20 King's pawn game, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=C23-C24 Bishop's opening, Player=Sindarov, Javokhir]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=C25-C29 Vienna game, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.666667
+    QueenTraded(True): 0.333333
+  [BigECO=C41 Philidor's defence, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.555556
+    QueenTraded(True): 0.444444
+  [BigECO=C42-C43 Petrov's defence, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=C44 King's pawn game, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.250000
+    QueenTraded(True): 0.750000
+  [BigECO=C45 Scotch game, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.250000
+    QueenTraded(True): 0.750000
+  [BigECO=C50 Italian Game, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.666667
+    QueenTraded(True): 0.333333
+  [BigECO=C53-C54 Giuoco Piano, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=C55-C59 Two knights defence, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.529412
+    QueenTraded(True): 0.470588
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.492754
+    QueenTraded(True): 0.507246
+  [BigECO=D01 Richter-Veresov attack, Player=Sindarov, Javokhir]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=D02 Queen's pawn game, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.600000
+    QueenTraded(True): 0.400000
+  [BigECO=D20-D29 Queen's gambit accepted, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=D30-D42 Queen's gambit declined, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.444444
+    QueenTraded(True): 0.555556
+  [BigECO=D43-D49 QGD semi-Slav, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=D50-D69 QGD, 4.Bg5, Player=Sindarov, Javokhir]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=D80-D99 Gruenfeld defence, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.347826
+    QueenTraded(True): 0.652174
+  [BigECO=E01-E09 Catalan, closed, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=E60-E99 King's Indian defence, Player=Sindarov, Javokhir]
+    QueenTraded(False): 0.409091
+    QueenTraded(True): 0.590909
+
+--- Balanced ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Sindarov, Javokhir]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A01 Nimzovich-Larsen attack, Player=Sindarov, Javokhir]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A04-A09 Reti opening, Player=Sindarov, Javokhir]
+    Balanced(False): 0.722222
+    Balanced(True): 0.277778
+  [BigECO=A10-A39 English opening, Player=Sindarov, Javokhir]
+    Balanced(False): 0.793103
+    Balanced(True): 0.206897
+  [BigECO=A40-A41 Queen's pawn, Player=Sindarov, Javokhir]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=A42 Modern defence, Averbakh system, Player=Sindarov, Javokhir]
+    Balanced(False): 0.000000
+    Balanced(True): 1.000000
+  [BigECO=A43-A44 Old Benoni defence, Player=Sindarov, Javokhir]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A45-A46 Queen's pawn game, Player=Sindarov, Javokhir]
+    Balanced(False): 0.777778
+    Balanced(True): 0.222222
+  [BigECO=A47 Queen's Indian defence, Player=Sindarov, Javokhir]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A48-A49 King's Indian, East Indian defence, Player=Sindarov, Javokhir]
+    Balanced(False): 0.818182
+    Balanced(True): 0.181818
+  [BigECO=A50 Queen's pawn game, Player=Sindarov, Javokhir]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A56 Benoni defence, Player=Sindarov, Javokhir]
+    Balanced(False): 0.916667
+    Balanced(True): 0.083333
+  [BigECO=A57-A59 Benko gambit, Player=Sindarov, Javokhir]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A60-A79 Benoni defence, Player=Sindarov, Javokhir]
+    Balanced(False): 0.750000
+    Balanced(True): 0.250000
+  [BigECO=B00 King's pawn opening, Player=Sindarov, Javokhir]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=B07-B09 Pirc defence, Player=Sindarov, Javokhir]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=B10-B19 Caro-Kann defence, Player=Sindarov, Javokhir]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=B20-B99 Sicilian defence, Player=Sindarov, Javokhir]
+    Balanced(False): 0.779661
+    Balanced(True): 0.220339
+  [BigECO=C00-C19 French defence, Player=Sindarov, Javokhir]
+    Balanced(False): 0.750000
+    Balanced(True): 0.250000
+  [BigECO=C20 King's pawn game, Player=Sindarov, Javokhir]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C23-C24 Bishop's opening, Player=Sindarov, Javokhir]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C25-C29 Vienna game, Player=Sindarov, Javokhir]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C41 Philidor's defence, Player=Sindarov, Javokhir]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=C42-C43 Petrov's defence, Player=Sindarov, Javokhir]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=C44 King's pawn game, Player=Sindarov, Javokhir]
+    Balanced(False): 0.750000
+    Balanced(True): 0.250000
+  [BigECO=C45 Scotch game, Player=Sindarov, Javokhir]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Sindarov, Javokhir]
+    Balanced(False): 0.375000
+    Balanced(True): 0.625000
+  [BigECO=C50 Italian Game, Player=Sindarov, Javokhir]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=C53-C54 Giuoco Piano, Player=Sindarov, Javokhir]
+    Balanced(False): 0.750000
+    Balanced(True): 0.250000
+  [BigECO=C55-C59 Two knights defence, Player=Sindarov, Javokhir]
+    Balanced(False): 0.647059
+    Balanced(True): 0.352941
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Sindarov, Javokhir]
+    Balanced(False): 0.797101
+    Balanced(True): 0.202899
+  [BigECO=D01 Richter-Veresov attack, Player=Sindarov, Javokhir]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=D02 Queen's pawn game, Player=Sindarov, Javokhir]
+    Balanced(False): 0.600000
+    Balanced(True): 0.400000
+  [BigECO=D20-D29 Queen's gambit accepted, Player=Sindarov, Javokhir]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D30-D42 Queen's gambit declined, Player=Sindarov, Javokhir]
+    Balanced(False): 0.555556
+    Balanced(True): 0.444444
+  [BigECO=D43-D49 QGD semi-Slav, Player=Sindarov, Javokhir]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=D50-D69 QGD, 4.Bg5, Player=Sindarov, Javokhir]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Sindarov, Javokhir]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=D80-D99 Gruenfeld defence, Player=Sindarov, Javokhir]
+    Balanced(False): 0.608696
+    Balanced(True): 0.391304
+  [BigECO=E01-E09 Catalan, closed, Player=Sindarov, Javokhir]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Sindarov, Javokhir]
+    Balanced(False): 0.333333
+    Balanced(True): 0.666667
+  [BigECO=E60-E99 King's Indian defence, Player=Sindarov, Javokhir]
+    Balanced(False): 0.757576
+    Balanced(True): 0.242424
+
+--- CastleBalance ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A01 Nimzovich-Larsen attack, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A04-A09 Reti opening, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.166667
+    CastleBalance(True): 0.833333
+  [BigECO=A10-A39 English opening, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.103448
+    CastleBalance(True): 0.896552
+  [BigECO=A40-A41 Queen's pawn, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.166667
+    CastleBalance(True): 0.833333
+  [BigECO=A42 Modern defence, Averbakh system, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A43-A44 Old Benoni defence, Player=Sindarov, Javokhir]
+    CastleBalance(False): 1.000000
+    CastleBalance(True): 0.000000
+  [BigECO=A45-A46 Queen's pawn game, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.333333
+    CastleBalance(True): 0.666667
+  [BigECO=A47 Queen's Indian defence, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A48-A49 King's Indian, East Indian defence, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.045455
+    CastleBalance(True): 0.954545
+  [BigECO=A50 Queen's pawn game, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A56 Benoni defence, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A57-A59 Benko gambit, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.400000
+    CastleBalance(True): 0.600000
+  [BigECO=A60-A79 Benoni defence, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.250000
+    CastleBalance(True): 0.750000
+  [BigECO=B00 King's pawn opening, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.500000
+    CastleBalance(True): 0.500000
+  [BigECO=B07-B09 Pirc defence, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.666667
+    CastleBalance(True): 0.333333
+  [BigECO=B10-B19 Caro-Kann defence, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=B20-B99 Sicilian defence, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.271186
+    CastleBalance(True): 0.728814
+  [BigECO=C00-C19 French defence, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.250000
+    CastleBalance(True): 0.750000
+  [BigECO=C20 King's pawn game, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C23-C24 Bishop's opening, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C25-C29 Vienna game, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.333333
+    CastleBalance(True): 0.666667
+  [BigECO=C41 Philidor's defence, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C42-C43 Petrov's defence, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.500000
+    CastleBalance(True): 0.500000
+  [BigECO=C44 King's pawn game, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.500000
+    CastleBalance(True): 0.500000
+  [BigECO=C45 Scotch game, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.333333
+    CastleBalance(True): 0.666667
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.250000
+    CastleBalance(True): 0.750000
+  [BigECO=C50 Italian Game, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C53-C54 Giuoco Piano, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C55-C59 Two knights defence, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.117647
+    CastleBalance(True): 0.882353
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.115942
+    CastleBalance(True): 0.884058
+  [BigECO=D01 Richter-Veresov attack, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.500000
+    CastleBalance(True): 0.500000
+  [BigECO=D02 Queen's pawn game, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.600000
+    CastleBalance(True): 0.400000
+  [BigECO=D20-D29 Queen's gambit accepted, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=D30-D42 Queen's gambit declined, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.222222
+    CastleBalance(True): 0.777778
+  [BigECO=D43-D49 QGD semi-Slav, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.222222
+    CastleBalance(True): 0.777778
+  [BigECO=D50-D69 QGD, 4.Bg5, Player=Sindarov, Javokhir]
+    CastleBalance(False): 1.000000
+    CastleBalance(True): 0.000000
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.166667
+    CastleBalance(True): 0.833333
+  [BigECO=D80-D99 Gruenfeld defence, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.652174
+    CastleBalance(True): 0.347826
+  [BigECO=E01-E09 Catalan, closed, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.666667
+    CastleBalance(True): 0.333333
+  [BigECO=E60-E99 King's Indian defence, Player=Sindarov, Javokhir]
+    CastleBalance(False): 0.242424
+    CastleBalance(True): 0.757576
+
+--- Result ---
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.500000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.500000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.500000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.500000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.500000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 1.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.666667
+    Result(1-0): 0.166667
+    Result(1/2-1/2): 0.166667
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 1.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.777778
+    Result(1-0): 0.222222
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.875000
+    Result(1/2-1/2): 0.125000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.285714
+    Result(1-0): 0.285714
+    Result(1/2-1/2): 0.428571
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.437500
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.312500
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.142857
+    Result(1-0): 0.571429
+    Result(1/2-1/2): 0.285714
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.500000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.500000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.250000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.250000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 1.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.750000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.545455
+    Result(1-0): 0.090909
+    Result(1/2-1/2): 0.363636
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.500000
+    Result(1-0): 0.181818
+    Result(1/2-1/2): 0.318182
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 1.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.176471
+    Result(1-0): 0.176471
+    Result(1/2-1/2): 0.647059
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.444444
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.305556
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 1.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 1.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.600000
+    Result(1-0): 0.400000
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.400000
+    Result(1-0): 0.200000
+    Result(1/2-1/2): 0.400000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.277778
+    Result(1-0): 0.111111
+    Result(1/2-1/2): 0.611111
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.500000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.500000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.473684
+    Result(1-0): 0.421053
+    Result(1/2-1/2): 0.105263
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.347826
+    Result(1-0): 0.391304
+    Result(1/2-1/2): 0.260870
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.285714
+    Result(1-0): 0.428571
+    Result(1/2-1/2): 0.285714
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.440000
+    Result(1-0): 0.240000
+    Result(1/2-1/2): 0.320000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.468750
+    Result(1-0): 0.125000
+    Result(1/2-1/2): 0.406250
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.272727
+    Result(1-0): 0.272727
+    Result(1/2-1/2): 0.454545
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 1.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 1.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.428571
+    Result(1-0): 0.428571
+    Result(1/2-1/2): 0.142857
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.333333
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.750000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.500000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.666667
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.250000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.111111
+    Result(1-0): 0.111111
+    Result(1/2-1/2): 0.777778
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.166667
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.833333
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 1.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.250000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.750000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.500000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.250000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.214286
+    Result(1-0): 0.142857
+    Result(1/2-1/2): 0.642857
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.750000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.111111
+    Result(1-0): 0.222222
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.200000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.800000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Sindarov, Javokhir, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+
+--- WhiteStreak ---
+  WhiteStreak(Negative): 0.308889
+  WhiteStreak(Neutral): 0.557778
+  WhiteStreak(Positive): 0.133333
+
+--- BlackStreak ---
+  BlackStreak(Negative): 0.180000
+  BlackStreak(Neutral): 0.364444
+  BlackStreak(Positive): 0.455556
+

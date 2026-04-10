@@ -1,0 +1,852 @@
+--- Player ---
+  Player(Caruana, Fabiano): 1.000000
+
+--- BigECO ---
+  [Player=Caruana, Fabiano]
+    BigECO(A00 Polish (Sokolsky) opening): 0.003280
+    BigECO(A01 Nimzovich-Larsen attack): 0.002187
+    BigECO(A04-A09 Reti opening): 0.039913
+    BigECO(A10-A39 English opening): 0.071624
+    BigECO(A40-A41 Queen's pawn): 0.001640
+    BigECO(A42 Modern defence, Averbakh system): 0.000547
+    BigECO(A45-A46 Queen's pawn game): 0.006014
+    BigECO(A48-A49 King's Indian, East Indian defence): 0.006014
+    BigECO(A50 Queen's pawn game): 0.001640
+    BigECO(A53-A55 Old Indian defence): 0.001093
+    BigECO(A56 Benoni defence): 0.001093
+    BigECO(A60-A79 Benoni defence): 0.007108
+    BigECO(A80-A99 Dutch): 0.001640
+    BigECO(B00 King's pawn opening): 0.002734
+    BigECO(B01 Scandinavian defence): 0.014215
+    BigECO(B02-B05 Alekhine's defence): 0.004921
+    BigECO(B06 Robatsch (modern) defence): 0.007108
+    BigECO(B07-B09 Pirc defence): 0.006561
+    BigECO(B10-B19 Caro-Kann defence): 0.033352
+    BigECO(B20-B99 Sicilian defence): 0.224713
+    BigECO(C00-C19 French defence): 0.055768
+    BigECO(C20 King's pawn game): 0.002187
+    BigECO(C23-C24 Bishop's opening): 0.006014
+    BigECO(C25-C29 Vienna game): 0.003280
+    BigECO(C40 King's knight opening): 0.001093
+    BigECO(C41 Philidor's defence): 0.005467
+    BigECO(C42-C43 Petrov's defence): 0.027337
+    BigECO(C44 King's pawn game): 0.001093
+    BigECO(C45 Scotch game): 0.007108
+    BigECO(C46 Three knights game): 0.001640
+    BigECO(C47-C49 Four knights, Scotch variation): 0.002187
+    BigECO(C50 Italian Game): 0.032805
+    BigECO(C51-C52 Evans gambit): 0.000547
+    BigECO(C53-C54 Giuoco Piano): 0.021870
+    BigECO(C55-C59 Two knights defence): 0.014762
+    BigECO(C60-C99 Ruy Lopez (Spanish opening)): 0.180973
+    BigECO(D00 Queen's pawn game): 0.002734
+    BigECO(D02 Queen's pawn game): 0.005467
+    BigECO(D04-D05 Queen's pawn game): 0.000547
+    BigECO(D10-D15 QGD Slav defence): 0.022417
+    BigECO(D16 QGD Slav accepted, Alapin variation): 0.001640
+    BigECO(D17-D19 QGD Slav, Czech defence): 0.000547
+    BigECO(D20-D29 Queen's gambit accepted): 0.006014
+    BigECO(D30-D42 Queen's gambit declined): 0.038272
+    BigECO(D43-D49 QGD semi-Slav): 0.008748
+    BigECO(D70-D79 Neo-Gruenfeld defence): 0.008201
+    BigECO(D80-D99 Gruenfeld defence): 0.009295
+    BigECO(E00 Queen's pawn game): 0.006561
+    BigECO(E01-E09 Catalan, closed): 0.021870
+    BigECO(E10 Queen's pawn game): 0.003280
+    BigECO(E11 Bogo-Indian defence): 0.000547
+    BigECO(E12-E19 Queen's Indian defence): 0.003280
+    BigECO(E20-E59 Nimzo-Indian defence): 0.033352
+    BigECO(E60-E99 King's Indian defence): 0.025697
+
+--- QueenTraded ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.666667
+    QueenTraded(True): 0.333333
+  [BigECO=A01 Nimzovich-Larsen attack, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.250000
+    QueenTraded(True): 0.750000
+  [BigECO=A04-A09 Reti opening, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.589041
+    QueenTraded(True): 0.410959
+  [BigECO=A10-A39 English opening, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.374046
+    QueenTraded(True): 0.625954
+  [BigECO=A40-A41 Queen's pawn, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=A42 Modern defence, Averbakh system, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=A45-A46 Queen's pawn game, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.363636
+    QueenTraded(True): 0.636364
+  [BigECO=A48-A49 King's Indian, East Indian defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.363636
+    QueenTraded(True): 0.636364
+  [BigECO=A50 Queen's pawn game, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=A53-A55 Old Indian defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=A56 Benoni defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=A60-A79 Benoni defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.384615
+    QueenTraded(True): 0.615385
+  [BigECO=A80-A99 Dutch, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=B00 King's pawn opening, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.400000
+    QueenTraded(True): 0.600000
+  [BigECO=B01 Scandinavian defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=B02-B05 Alekhine's defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.666667
+    QueenTraded(True): 0.333333
+  [BigECO=B06 Robatsch (modern) defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.384615
+    QueenTraded(True): 0.615385
+  [BigECO=B07-B09 Pirc defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.416667
+    QueenTraded(True): 0.583333
+  [BigECO=B10-B19 Caro-Kann defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.524590
+    QueenTraded(True): 0.475410
+  [BigECO=B20-B99 Sicilian defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.467153
+    QueenTraded(True): 0.532847
+  [BigECO=C00-C19 French defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.490196
+    QueenTraded(True): 0.509804
+  [BigECO=C20 King's pawn game, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=C23-C24 Bishop's opening, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.363636
+    QueenTraded(True): 0.636364
+  [BigECO=C25-C29 Vienna game, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.833333
+    QueenTraded(True): 0.166667
+  [BigECO=C40 King's knight opening, Player=Caruana, Fabiano]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=C41 Philidor's defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.400000
+    QueenTraded(True): 0.600000
+  [BigECO=C42-C43 Petrov's defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.400000
+    QueenTraded(True): 0.600000
+  [BigECO=C44 King's pawn game, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=C45 Scotch game, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.307692
+    QueenTraded(True): 0.692308
+  [BigECO=C46 Three knights game, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.750000
+    QueenTraded(True): 0.250000
+  [BigECO=C50 Italian Game, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.483333
+    QueenTraded(True): 0.516667
+  [BigECO=C51-C52 Evans gambit, Player=Caruana, Fabiano]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=C53-C54 Giuoco Piano, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.425000
+    QueenTraded(True): 0.575000
+  [BigECO=C55-C59 Two knights defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.407407
+    QueenTraded(True): 0.592593
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Caruana, Fabiano]
+    QueenTraded(False): 0.429003
+    QueenTraded(True): 0.570997
+  [BigECO=D00 Queen's pawn game, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=D02 Queen's pawn game, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=D04-D05 Queen's pawn game, Player=Caruana, Fabiano]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=D10-D15 QGD Slav defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.268293
+    QueenTraded(True): 0.731707
+  [BigECO=D16 QGD Slav accepted, Alapin variation, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=D17-D19 QGD Slav, Czech defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=D20-D29 Queen's gambit accepted, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.181818
+    QueenTraded(True): 0.818182
+  [BigECO=D30-D42 Queen's gambit declined, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.428571
+    QueenTraded(True): 0.571429
+  [BigECO=D43-D49 QGD semi-Slav, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.437500
+    QueenTraded(True): 0.562500
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.533333
+    QueenTraded(True): 0.466667
+  [BigECO=D80-D99 Gruenfeld defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.411765
+    QueenTraded(True): 0.588235
+  [BigECO=E00 Queen's pawn game, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=E01-E09 Catalan, closed, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.375000
+    QueenTraded(True): 0.625000
+  [BigECO=E10 Queen's pawn game, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=E11 Bogo-Indian defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=E12-E19 Queen's Indian defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.311475
+    QueenTraded(True): 0.688525
+  [BigECO=E60-E99 King's Indian defence, Player=Caruana, Fabiano]
+    QueenTraded(False): 0.638298
+    QueenTraded(True): 0.361702
+
+--- Balanced ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Caruana, Fabiano]
+    Balanced(False): 0.833333
+    Balanced(True): 0.166667
+  [BigECO=A01 Nimzovich-Larsen attack, Player=Caruana, Fabiano]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=A04-A09 Reti opening, Player=Caruana, Fabiano]
+    Balanced(False): 0.863014
+    Balanced(True): 0.136986
+  [BigECO=A10-A39 English opening, Player=Caruana, Fabiano]
+    Balanced(False): 0.770992
+    Balanced(True): 0.229008
+  [BigECO=A40-A41 Queen's pawn, Player=Caruana, Fabiano]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A42 Modern defence, Averbakh system, Player=Caruana, Fabiano]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A45-A46 Queen's pawn game, Player=Caruana, Fabiano]
+    Balanced(False): 0.818182
+    Balanced(True): 0.181818
+  [BigECO=A48-A49 King's Indian, East Indian defence, Player=Caruana, Fabiano]
+    Balanced(False): 0.727273
+    Balanced(True): 0.272727
+  [BigECO=A50 Queen's pawn game, Player=Caruana, Fabiano]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A53-A55 Old Indian defence, Player=Caruana, Fabiano]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A56 Benoni defence, Player=Caruana, Fabiano]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A60-A79 Benoni defence, Player=Caruana, Fabiano]
+    Balanced(False): 0.769231
+    Balanced(True): 0.230769
+  [BigECO=A80-A99 Dutch, Player=Caruana, Fabiano]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=B00 King's pawn opening, Player=Caruana, Fabiano]
+    Balanced(False): 0.800000
+    Balanced(True): 0.200000
+  [BigECO=B01 Scandinavian defence, Player=Caruana, Fabiano]
+    Balanced(False): 0.730769
+    Balanced(True): 0.269231
+  [BigECO=B02-B05 Alekhine's defence, Player=Caruana, Fabiano]
+    Balanced(False): 0.888889
+    Balanced(True): 0.111111
+  [BigECO=B06 Robatsch (modern) defence, Player=Caruana, Fabiano]
+    Balanced(False): 0.846154
+    Balanced(True): 0.153846
+  [BigECO=B07-B09 Pirc defence, Player=Caruana, Fabiano]
+    Balanced(False): 0.916667
+    Balanced(True): 0.083333
+  [BigECO=B10-B19 Caro-Kann defence, Player=Caruana, Fabiano]
+    Balanced(False): 0.803279
+    Balanced(True): 0.196721
+  [BigECO=B20-B99 Sicilian defence, Player=Caruana, Fabiano]
+    Balanced(False): 0.788321
+    Balanced(True): 0.211679
+  [BigECO=C00-C19 French defence, Player=Caruana, Fabiano]
+    Balanced(False): 0.784314
+    Balanced(True): 0.215686
+  [BigECO=C20 King's pawn game, Player=Caruana, Fabiano]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C23-C24 Bishop's opening, Player=Caruana, Fabiano]
+    Balanced(False): 0.727273
+    Balanced(True): 0.272727
+  [BigECO=C25-C29 Vienna game, Player=Caruana, Fabiano]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=C40 King's knight opening, Player=Caruana, Fabiano]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C41 Philidor's defence, Player=Caruana, Fabiano]
+    Balanced(False): 0.900000
+    Balanced(True): 0.100000
+  [BigECO=C42-C43 Petrov's defence, Player=Caruana, Fabiano]
+    Balanced(False): 0.760000
+    Balanced(True): 0.240000
+  [BigECO=C44 King's pawn game, Player=Caruana, Fabiano]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C45 Scotch game, Player=Caruana, Fabiano]
+    Balanced(False): 0.846154
+    Balanced(True): 0.153846
+  [BigECO=C46 Three knights game, Player=Caruana, Fabiano]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Caruana, Fabiano]
+    Balanced(False): 0.250000
+    Balanced(True): 0.750000
+  [BigECO=C50 Italian Game, Player=Caruana, Fabiano]
+    Balanced(False): 0.766667
+    Balanced(True): 0.233333
+  [BigECO=C51-C52 Evans gambit, Player=Caruana, Fabiano]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C53-C54 Giuoco Piano, Player=Caruana, Fabiano]
+    Balanced(False): 0.850000
+    Balanced(True): 0.150000
+  [BigECO=C55-C59 Two knights defence, Player=Caruana, Fabiano]
+    Balanced(False): 0.814815
+    Balanced(True): 0.185185
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Caruana, Fabiano]
+    Balanced(False): 0.848943
+    Balanced(True): 0.151057
+  [BigECO=D00 Queen's pawn game, Player=Caruana, Fabiano]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D02 Queen's pawn game, Player=Caruana, Fabiano]
+    Balanced(False): 0.700000
+    Balanced(True): 0.300000
+  [BigECO=D04-D05 Queen's pawn game, Player=Caruana, Fabiano]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D10-D15 QGD Slav defence, Player=Caruana, Fabiano]
+    Balanced(False): 0.682927
+    Balanced(True): 0.317073
+  [BigECO=D16 QGD Slav accepted, Alapin variation, Player=Caruana, Fabiano]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D17-D19 QGD Slav, Czech defence, Player=Caruana, Fabiano]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D20-D29 Queen's gambit accepted, Player=Caruana, Fabiano]
+    Balanced(False): 0.909091
+    Balanced(True): 0.090909
+  [BigECO=D30-D42 Queen's gambit declined, Player=Caruana, Fabiano]
+    Balanced(False): 0.871429
+    Balanced(True): 0.128571
+  [BigECO=D43-D49 QGD semi-Slav, Player=Caruana, Fabiano]
+    Balanced(False): 0.812500
+    Balanced(True): 0.187500
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Caruana, Fabiano]
+    Balanced(False): 0.866667
+    Balanced(True): 0.133333
+  [BigECO=D80-D99 Gruenfeld defence, Player=Caruana, Fabiano]
+    Balanced(False): 0.823529
+    Balanced(True): 0.176471
+  [BigECO=E00 Queen's pawn game, Player=Caruana, Fabiano]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=E01-E09 Catalan, closed, Player=Caruana, Fabiano]
+    Balanced(False): 0.900000
+    Balanced(True): 0.100000
+  [BigECO=E10 Queen's pawn game, Player=Caruana, Fabiano]
+    Balanced(False): 0.833333
+    Balanced(True): 0.166667
+  [BigECO=E11 Bogo-Indian defence, Player=Caruana, Fabiano]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=E12-E19 Queen's Indian defence, Player=Caruana, Fabiano]
+    Balanced(False): 0.833333
+    Balanced(True): 0.166667
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Caruana, Fabiano]
+    Balanced(False): 0.786885
+    Balanced(True): 0.213115
+  [BigECO=E60-E99 King's Indian defence, Player=Caruana, Fabiano]
+    Balanced(False): 0.787234
+    Balanced(True): 0.212766
+
+--- CastleBalance ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.166667
+    CastleBalance(True): 0.833333
+  [BigECO=A01 Nimzovich-Larsen attack, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.500000
+    CastleBalance(True): 0.500000
+  [BigECO=A04-A09 Reti opening, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.068493
+    CastleBalance(True): 0.931507
+  [BigECO=A10-A39 English opening, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.152672
+    CastleBalance(True): 0.847328
+  [BigECO=A40-A41 Queen's pawn, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A42 Modern defence, Averbakh system, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A45-A46 Queen's pawn game, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.454545
+    CastleBalance(True): 0.545455
+  [BigECO=A48-A49 King's Indian, East Indian defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.181818
+    CastleBalance(True): 0.818182
+  [BigECO=A50 Queen's pawn game, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.333333
+    CastleBalance(True): 0.666667
+  [BigECO=A53-A55 Old Indian defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 1.000000
+    CastleBalance(True): 0.000000
+  [BigECO=A56 Benoni defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A60-A79 Benoni defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A80-A99 Dutch, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=B00 King's pawn opening, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.400000
+    CastleBalance(True): 0.600000
+  [BigECO=B01 Scandinavian defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.269231
+    CastleBalance(True): 0.730769
+  [BigECO=B02-B05 Alekhine's defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.111111
+    CastleBalance(True): 0.888889
+  [BigECO=B06 Robatsch (modern) defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.538462
+    CastleBalance(True): 0.461538
+  [BigECO=B07-B09 Pirc defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.583333
+    CastleBalance(True): 0.416667
+  [BigECO=B10-B19 Caro-Kann defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.442623
+    CastleBalance(True): 0.557377
+  [BigECO=B20-B99 Sicilian defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.437956
+    CastleBalance(True): 0.562044
+  [BigECO=C00-C19 French defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.500000
+    CastleBalance(True): 0.500000
+  [BigECO=C20 King's pawn game, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.250000
+    CastleBalance(True): 0.750000
+  [BigECO=C23-C24 Bishop's opening, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.090909
+    CastleBalance(True): 0.909091
+  [BigECO=C25-C29 Vienna game, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.166667
+    CastleBalance(True): 0.833333
+  [BigECO=C40 King's knight opening, Player=Caruana, Fabiano]
+    CastleBalance(False): 1.000000
+    CastleBalance(True): 0.000000
+  [BigECO=C41 Philidor's defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.100000
+    CastleBalance(True): 0.900000
+  [BigECO=C42-C43 Petrov's defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.460000
+    CastleBalance(True): 0.540000
+  [BigECO=C44 King's pawn game, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C45 Scotch game, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.307692
+    CastleBalance(True): 0.692308
+  [BigECO=C46 Three knights game, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.333333
+    CastleBalance(True): 0.666667
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.750000
+    CastleBalance(True): 0.250000
+  [BigECO=C50 Italian Game, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.050000
+    CastleBalance(True): 0.950000
+  [BigECO=C51-C52 Evans gambit, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C53-C54 Giuoco Piano, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.075000
+    CastleBalance(True): 0.925000
+  [BigECO=C55-C59 Two knights defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.222222
+    CastleBalance(True): 0.777778
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Caruana, Fabiano]
+    CastleBalance(False): 0.226586
+    CastleBalance(True): 0.773414
+  [BigECO=D00 Queen's pawn game, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=D02 Queen's pawn game, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=D04-D05 Queen's pawn game, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=D10-D15 QGD Slav defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.365854
+    CastleBalance(True): 0.634146
+  [BigECO=D16 QGD Slav accepted, Alapin variation, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.333333
+    CastleBalance(True): 0.666667
+  [BigECO=D17-D19 QGD Slav, Czech defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 1.000000
+    CastleBalance(True): 0.000000
+  [BigECO=D20-D29 Queen's gambit accepted, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.181818
+    CastleBalance(True): 0.818182
+  [BigECO=D30-D42 Queen's gambit declined, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.328571
+    CastleBalance(True): 0.671429
+  [BigECO=D43-D49 QGD semi-Slav, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.125000
+    CastleBalance(True): 0.875000
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.266667
+    CastleBalance(True): 0.733333
+  [BigECO=D80-D99 Gruenfeld defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.176471
+    CastleBalance(True): 0.823529
+  [BigECO=E00 Queen's pawn game, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.083333
+    CastleBalance(True): 0.916667
+  [BigECO=E01-E09 Catalan, closed, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.025000
+    CastleBalance(True): 0.975000
+  [BigECO=E10 Queen's pawn game, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.166667
+    CastleBalance(True): 0.833333
+  [BigECO=E11 Bogo-Indian defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E12-E19 Queen's Indian defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.213115
+    CastleBalance(True): 0.786885
+  [BigECO=E60-E99 King's Indian defence, Player=Caruana, Fabiano]
+    CastleBalance(False): 0.297872
+    CastleBalance(True): 0.702128
+
+--- Result ---
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.111111
+    Result(1-0): 0.666667
+    Result(1/2-1/2): 0.222222
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.062500
+    Result(1-0): 0.687500
+    Result(1/2-1/2): 0.250000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.055556
+    Result(1-0): 0.944444
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.277778
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.388889
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.142857
+    Result(1-0): 0.476190
+    Result(1/2-1/2): 0.380952
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.120000
+    Result(1-0): 0.640000
+    Result(1/2-1/2): 0.240000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.176471
+    Result(1-0): 0.647059
+    Result(1/2-1/2): 0.176471
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.180000
+    Result(1-0): 0.520000
+    Result(1/2-1/2): 0.300000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.187500
+    Result(1-0): 0.625000
+    Result(1/2-1/2): 0.187500
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.217391
+    Result(1-0): 0.434783
+    Result(1/2-1/2): 0.347826
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.140000
+    Result(1-0): 0.400000
+    Result(1/2-1/2): 0.460000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.180723
+    Result(1-0): 0.457831
+    Result(1/2-1/2): 0.361446
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.250000
+    Result(1-0): 0.650000
+    Result(1/2-1/2): 0.100000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.275000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.225000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.200000
+    Result(1-0): 0.771429
+    Result(1/2-1/2): 0.028571
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.230769
+    Result(1-0): 0.384615
+    Result(1/2-1/2): 0.384615
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.045455
+    Result(1-0): 0.409091
+    Result(1/2-1/2): 0.545455
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.173913
+    Result(1-0): 0.543478
+    Result(1/2-1/2): 0.282609
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.260870
+    Result(1-0): 0.543478
+    Result(1/2-1/2): 0.195652
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.200000
+    Result(1-0): 0.504348
+    Result(1/2-1/2): 0.295652
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.203125
+    Result(1-0): 0.562500
+    Result(1/2-1/2): 0.234375
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.245902
+    Result(1-0): 0.295082
+    Result(1/2-1/2): 0.459016
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.146739
+    Result(1-0): 0.282609
+    Result(1/2-1/2): 0.570652
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.183673
+    Result(1-0): 0.316327
+    Result(1/2-1/2): 0.500000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.500000
+    Result(1-0): 0.416667
+    Result(1/2-1/2): 0.083333
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.222222
+    Result(1-0): 0.555556
+    Result(1/2-1/2): 0.222222
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.266667
+    Result(1-0): 0.466667
+    Result(1/2-1/2): 0.266667
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.350000
+    Result(1-0): 0.400000
+    Result(1/2-1/2): 0.250000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.148148
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.518519
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.266667
+    Result(1-0): 0.466667
+    Result(1/2-1/2): 0.266667
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.550000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.200000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.333333
+    Result(1-0): 0.291667
+    Result(1/2-1/2): 0.375000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.296296
+    Result(1-0): 0.259259
+    Result(1/2-1/2): 0.444444
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.391304
+    Result(1-0): 0.173913
+    Result(1/2-1/2): 0.434783
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.225806
+    Result(1-0): 0.225806
+    Result(1/2-1/2): 0.548387
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.162162
+    Result(1-0): 0.216216
+    Result(1/2-1/2): 0.621622
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.200000
+    Result(1-0): 0.600000
+    Result(1/2-1/2): 0.200000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.142857
+    Result(1-0): 0.714286
+    Result(1/2-1/2): 0.142857
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.200000
+    Result(1/2-1/2): 0.800000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.166667
+    Result(1/2-1/2): 0.833333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.666667
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.200000
+    Result(1-0): 0.600000
+    Result(1/2-1/2): 0.200000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.153846
+    Result(1-0): 0.538462
+    Result(1/2-1/2): 0.307692
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.750000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.100000
+    Result(1-0): 0.300000
+    Result(1/2-1/2): 0.600000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.125000
+    Result(1-0): 0.437500
+    Result(1/2-1/2): 0.437500
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.750000
+    Result(1/2-1/2): 0.250000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.076923
+    Result(1-0): 0.615385
+    Result(1/2-1/2): 0.307692
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.071429
+    Result(1-0): 0.428571
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.200000
+    Result(1-0): 0.400000
+    Result(1/2-1/2): 0.400000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.125000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.625000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.210526
+    Result(1-0): 0.736842
+    Result(1/2-1/2): 0.052632
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.411765
+    Result(1/2-1/2): 0.588235
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.176471
+    Result(1-0): 0.352941
+    Result(1/2-1/2): 0.470588
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.222222
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.777778
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.078947
+    Result(1-0): 0.263158
+    Result(1/2-1/2): 0.657895
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.466667
+    Result(1/2-1/2): 0.533333
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 1.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.500000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 1.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.307692
+    Result(1-0): 0.384615
+    Result(1/2-1/2): 0.307692
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.416667
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.250000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.454545
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.545455
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.200000
+    Result(1-0): 0.400000
+    Result(1/2-1/2): 0.400000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Caruana, Fabiano, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+
+--- WhiteStreak ---
+  WhiteStreak(Negative): 0.229087
+  WhiteStreak(Neutral): 0.431383
+  WhiteStreak(Positive): 0.339530
+
+--- BlackStreak ---
+  BlackStreak(Negative): 0.251504
+  BlackStreak(Neutral): 0.547294
+  BlackStreak(Positive): 0.201203
+

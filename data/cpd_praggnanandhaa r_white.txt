@@ -1,0 +1,732 @@
+--- Player ---
+  Player(Praggnanandhaa R, ): 1.000000
+
+--- BigECO ---
+  [Player=Praggnanandhaa R, ]
+    BigECO(A00 Polish (Sokolsky) opening): 0.004601
+    BigECO(A01 Nimzovich-Larsen attack): 0.030675
+    BigECO(A04-A09 Reti opening): 0.121166
+    BigECO(A10-A39 English opening): 0.044479
+    BigECO(A40-A41 Queen's pawn): 0.004601
+    BigECO(A42 Modern defence, Averbakh system): 0.001534
+    BigECO(A45-A46 Queen's pawn game): 0.061350
+    BigECO(A48-A49 King's Indian, East Indian defence): 0.003067
+    BigECO(A56 Benoni defence): 0.003067
+    BigECO(B00 King's pawn opening): 0.006135
+    BigECO(B01 Scandinavian defence): 0.006135
+    BigECO(B06 Robatsch (modern) defence): 0.003067
+    BigECO(B07-B09 Pirc defence): 0.001534
+    BigECO(B10-B19 Caro-Kann defence): 0.036810
+    BigECO(B20-B99 Sicilian defence): 0.139571
+    BigECO(C00-C19 French defence): 0.023006
+    BigECO(C20 King's pawn game): 0.001534
+    BigECO(C41 Philidor's defence): 0.003067
+    BigECO(C42-C43 Petrov's defence): 0.023006
+    BigECO(C44 King's pawn game): 0.009202
+    BigECO(C45 Scotch game): 0.004601
+    BigECO(C47-C49 Four knights, Scotch variation): 0.012270
+    BigECO(C50 Italian Game): 0.061350
+    BigECO(C53-C54 Giuoco Piano): 0.021472
+    BigECO(C55-C59 Two knights defence): 0.035276
+    BigECO(C60-C99 Ruy Lopez (Spanish opening)): 0.073620
+    BigECO(D00 Queen's pawn game): 0.007669
+    BigECO(D02 Queen's pawn game): 0.021472
+    BigECO(D04-D05 Queen's pawn game): 0.007669
+    BigECO(D10-D15 QGD Slav defence): 0.023006
+    BigECO(D16 QGD Slav accepted, Alapin variation): 0.001534
+    BigECO(D20-D29 Queen's gambit accepted): 0.013804
+    BigECO(D30-D42 Queen's gambit declined): 0.067485
+    BigECO(D43-D49 QGD semi-Slav): 0.016871
+    BigECO(D70-D79 Neo-Gruenfeld defence): 0.006135
+    BigECO(D80-D99 Gruenfeld defence): 0.019939
+    BigECO(E00 Queen's pawn game): 0.006135
+    BigECO(E01-E09 Catalan, closed): 0.012270
+    BigECO(E10 Queen's pawn game): 0.003067
+    BigECO(E12-E19 Queen's Indian defence): 0.015337
+    BigECO(E20-E59 Nimzo-Indian defence): 0.019939
+    BigECO(E60-E99 King's Indian defence): 0.021472
+
+--- QueenTraded ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=A01 Nimzovich-Larsen attack, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.550000
+    QueenTraded(True): 0.450000
+  [BigECO=A04-A09 Reti opening, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.405063
+    QueenTraded(True): 0.594937
+  [BigECO=A10-A39 English opening, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.517241
+    QueenTraded(True): 0.482759
+  [BigECO=A40-A41 Queen's pawn, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.666667
+    QueenTraded(True): 0.333333
+  [BigECO=A42 Modern defence, Averbakh system, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=A45-A46 Queen's pawn game, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.400000
+    QueenTraded(True): 0.600000
+  [BigECO=A48-A49 King's Indian, East Indian defence, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=A56 Benoni defence, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=B00 King's pawn opening, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.250000
+    QueenTraded(True): 0.750000
+  [BigECO=B01 Scandinavian defence, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.750000
+    QueenTraded(True): 0.250000
+  [BigECO=B06 Robatsch (modern) defence, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=B07-B09 Pirc defence, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=B10-B19 Caro-Kann defence, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.416667
+    QueenTraded(True): 0.583333
+  [BigECO=B20-B99 Sicilian defence, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.406593
+    QueenTraded(True): 0.593407
+  [BigECO=C00-C19 French defence, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.466667
+    QueenTraded(True): 0.533333
+  [BigECO=C20 King's pawn game, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=C41 Philidor's defence, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=C42-C43 Petrov's defence, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=C44 King's pawn game, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=C45 Scotch game, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=C50 Italian Game, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.325000
+    QueenTraded(True): 0.675000
+  [BigECO=C53-C54 Giuoco Piano, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.214286
+    QueenTraded(True): 0.785714
+  [BigECO=C55-C59 Two knights defence, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.391304
+    QueenTraded(True): 0.608696
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.395833
+    QueenTraded(True): 0.604167
+  [BigECO=D00 Queen's pawn game, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=D02 Queen's pawn game, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.071429
+    QueenTraded(True): 0.928571
+  [BigECO=D04-D05 Queen's pawn game, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=D10-D15 QGD Slav defence, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=D16 QGD Slav accepted, Alapin variation, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=D20-D29 Queen's gambit accepted, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.222222
+    QueenTraded(True): 0.777778
+  [BigECO=D30-D42 Queen's gambit declined, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.295455
+    QueenTraded(True): 0.704545
+  [BigECO=D43-D49 QGD semi-Slav, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.727273
+    QueenTraded(True): 0.272727
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=D80-D99 Gruenfeld defence, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.384615
+    QueenTraded(True): 0.615385
+  [BigECO=E00 Queen's pawn game, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.250000
+    QueenTraded(True): 0.750000
+  [BigECO=E01-E09 Catalan, closed, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.375000
+    QueenTraded(True): 0.625000
+  [BigECO=E10 Queen's pawn game, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=E12-E19 Queen's Indian defence, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.538462
+    QueenTraded(True): 0.461538
+  [BigECO=E60-E99 King's Indian defence, Player=Praggnanandhaa R, ]
+    QueenTraded(False): 0.285714
+    QueenTraded(True): 0.714286
+
+--- Balanced ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=A01 Nimzovich-Larsen attack, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.900000
+    Balanced(True): 0.100000
+  [BigECO=A04-A09 Reti opening, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.772152
+    Balanced(True): 0.227848
+  [BigECO=A10-A39 English opening, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.724138
+    Balanced(True): 0.275862
+  [BigECO=A40-A41 Queen's pawn, Player=Praggnanandhaa R, ]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A42 Modern defence, Averbakh system, Player=Praggnanandhaa R, ]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A45-A46 Queen's pawn game, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.775000
+    Balanced(True): 0.225000
+  [BigECO=A48-A49 King's Indian, East Indian defence, Player=Praggnanandhaa R, ]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A56 Benoni defence, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=B00 King's pawn opening, Player=Praggnanandhaa R, ]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=B01 Scandinavian defence, Player=Praggnanandhaa R, ]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=B06 Robatsch (modern) defence, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.000000
+    Balanced(True): 1.000000
+  [BigECO=B07-B09 Pirc defence, Player=Praggnanandhaa R, ]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=B10-B19 Caro-Kann defence, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.750000
+    Balanced(True): 0.250000
+  [BigECO=B20-B99 Sicilian defence, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.846154
+    Balanced(True): 0.153846
+  [BigECO=C00-C19 French defence, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=C20 King's pawn game, Player=Praggnanandhaa R, ]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C41 Philidor's defence, Player=Praggnanandhaa R, ]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C42-C43 Petrov's defence, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.600000
+    Balanced(True): 0.400000
+  [BigECO=C44 King's pawn game, Player=Praggnanandhaa R, ]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C45 Scotch game, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.625000
+    Balanced(True): 0.375000
+  [BigECO=C50 Italian Game, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.650000
+    Balanced(True): 0.350000
+  [BigECO=C53-C54 Giuoco Piano, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.642857
+    Balanced(True): 0.357143
+  [BigECO=C55-C59 Two knights defence, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.826087
+    Balanced(True): 0.173913
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Praggnanandhaa R, ]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=D00 Queen's pawn game, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.400000
+    Balanced(True): 0.600000
+  [BigECO=D02 Queen's pawn game, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.642857
+    Balanced(True): 0.357143
+  [BigECO=D04-D05 Queen's pawn game, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.800000
+    Balanced(True): 0.200000
+  [BigECO=D10-D15 QGD Slav defence, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.800000
+    Balanced(True): 0.200000
+  [BigECO=D16 QGD Slav accepted, Alapin variation, Player=Praggnanandhaa R, ]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D20-D29 Queen's gambit accepted, Player=Praggnanandhaa R, ]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D30-D42 Queen's gambit declined, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.795455
+    Balanced(True): 0.204545
+  [BigECO=D43-D49 QGD semi-Slav, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.545455
+    Balanced(True): 0.454545
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.750000
+    Balanced(True): 0.250000
+  [BigECO=D80-D99 Gruenfeld defence, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.769231
+    Balanced(True): 0.230769
+  [BigECO=E00 Queen's pawn game, Player=Praggnanandhaa R, ]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=E01-E09 Catalan, closed, Player=Praggnanandhaa R, ]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=E10 Queen's pawn game, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=E12-E19 Queen's Indian defence, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.800000
+    Balanced(True): 0.200000
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.769231
+    Balanced(True): 0.230769
+  [BigECO=E60-E99 King's Indian defence, Player=Praggnanandhaa R, ]
+    Balanced(False): 0.928571
+    Balanced(True): 0.071429
+
+--- CastleBalance ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.333333
+    CastleBalance(True): 0.666667
+  [BigECO=A01 Nimzovich-Larsen attack, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.400000
+    CastleBalance(True): 0.600000
+  [BigECO=A04-A09 Reti opening, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.113924
+    CastleBalance(True): 0.886076
+  [BigECO=A10-A39 English opening, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.206897
+    CastleBalance(True): 0.793103
+  [BigECO=A40-A41 Queen's pawn, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.333333
+    CastleBalance(True): 0.666667
+  [BigECO=A42 Modern defence, Averbakh system, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A45-A46 Queen's pawn game, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.325000
+    CastleBalance(True): 0.675000
+  [BigECO=A48-A49 King's Indian, East Indian defence, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A56 Benoni defence, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.500000
+    CastleBalance(True): 0.500000
+  [BigECO=B00 King's pawn opening, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.250000
+    CastleBalance(True): 0.750000
+  [BigECO=B01 Scandinavian defence, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=B06 Robatsch (modern) defence, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=B07-B09 Pirc defence, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=B10-B19 Caro-Kann defence, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.333333
+    CastleBalance(True): 0.666667
+  [BigECO=B20-B99 Sicilian defence, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.406593
+    CastleBalance(True): 0.593407
+  [BigECO=C00-C19 French defence, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.466667
+    CastleBalance(True): 0.533333
+  [BigECO=C20 King's pawn game, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C41 Philidor's defence, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C42-C43 Petrov's defence, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.466667
+    CastleBalance(True): 0.533333
+  [BigECO=C44 King's pawn game, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C45 Scotch game, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.333333
+    CastleBalance(True): 0.666667
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.250000
+    CastleBalance(True): 0.750000
+  [BigECO=C50 Italian Game, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.100000
+    CastleBalance(True): 0.900000
+  [BigECO=C53-C54 Giuoco Piano, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.214286
+    CastleBalance(True): 0.785714
+  [BigECO=C55-C59 Two knights defence, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.086957
+    CastleBalance(True): 0.913043
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.166667
+    CastleBalance(True): 0.833333
+  [BigECO=D00 Queen's pawn game, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=D02 Queen's pawn game, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.428571
+    CastleBalance(True): 0.571429
+  [BigECO=D04-D05 Queen's pawn game, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.200000
+    CastleBalance(True): 0.800000
+  [BigECO=D10-D15 QGD Slav defence, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.400000
+    CastleBalance(True): 0.600000
+  [BigECO=D16 QGD Slav accepted, Alapin variation, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=D20-D29 Queen's gambit accepted, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=D30-D42 Queen's gambit declined, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.272727
+    CastleBalance(True): 0.727273
+  [BigECO=D43-D49 QGD semi-Slav, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.090909
+    CastleBalance(True): 0.909091
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=D80-D99 Gruenfeld defence, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.230769
+    CastleBalance(True): 0.769231
+  [BigECO=E00 Queen's pawn game, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E01-E09 Catalan, closed, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E10 Queen's pawn game, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E12-E19 Queen's Indian defence, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.100000
+    CastleBalance(True): 0.900000
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.230769
+    CastleBalance(True): 0.769231
+  [BigECO=E60-E99 King's Indian defence, Player=Praggnanandhaa R, ]
+    CastleBalance(False): 0.357143
+    CastleBalance(True): 0.642857
+
+--- Result ---
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.500000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.857143
+    Result(1/2-1/2): 0.142857
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.333333
+    Result(1-0): 0.666667
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.111111
+    Result(1-0): 0.555556
+    Result(1/2-1/2): 0.333333
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.222222
+    Result(1-0): 0.444444
+    Result(1/2-1/2): 0.333333
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.142857
+    Result(1-0): 0.857143
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.250000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.250000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.187500
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.312500
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.066667
+    Result(1-0): 0.733333
+    Result(1/2-1/2): 0.200000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.200000
+    Result(1-0): 0.533333
+    Result(1/2-1/2): 0.266667
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.166667
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.333333
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.096774
+    Result(1-0): 0.645161
+    Result(1/2-1/2): 0.258065
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.666667
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.111111
+    Result(1-0): 0.666667
+    Result(1/2-1/2): 0.222222
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.750000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.250000
+    Result(1-0): 0.166667
+    Result(1/2-1/2): 0.583333
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.272727
+    Result(1-0): 0.227273
+    Result(1/2-1/2): 0.500000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.100000
+    Result(1-0): 0.700000
+    Result(1/2-1/2): 0.200000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.428571
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.071429
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.186047
+    Result(1-0): 0.651163
+    Result(1/2-1/2): 0.162791
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.125000
+    Result(1-0): 0.687500
+    Result(1/2-1/2): 0.187500
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.541667
+    Result(1/2-1/2): 0.125000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.121622
+    Result(1-0): 0.310811
+    Result(1/2-1/2): 0.567568
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.138889
+    Result(1-0): 0.416667
+    Result(1/2-1/2): 0.444444
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.666667
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.333333
+    Result(1-0): 0.666667
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.666667
+    Result(1-0): 0.166667
+    Result(1/2-1/2): 0.166667
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.600000
+    Result(1-0): 0.200000
+    Result(1/2-1/2): 0.200000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.166667
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.500000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.428571
+    Result(1-0): 0.571429
+    Result(1/2-1/2): 0.000000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.375000
+    Result(1-0): 0.375000
+    Result(1/2-1/2): 0.250000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.571429
+    Result(1/2-1/2): 0.428571
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.187500
+    Result(1-0): 0.437500
+    Result(1/2-1/2): 0.375000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.250000
+    Result(1-0): 0.375000
+    Result(1/2-1/2): 0.375000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.533333
+    Result(1-0): 0.200000
+    Result(1/2-1/2): 0.266667
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 1.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 1.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.200000
+    Result(1-0): 0.600000
+    Result(1/2-1/2): 0.200000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.250000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.750000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.111111
+    Result(1-0): 0.666667
+    Result(1/2-1/2): 0.222222
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.166667
+    Result(1-0): 0.166667
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.500000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.444444
+    Result(1/2-1/2): 0.555556
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 1.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.250000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.750000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 1.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.142857
+    Result(1-0): 0.142857
+    Result(1/2-1/2): 0.714286
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.285714
+    Result(1-0): 0.142857
+    Result(1/2-1/2): 0.571429
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.111111
+    Result(1-0): 0.388889
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.142857
+    Result(1-0): 0.571429
+    Result(1/2-1/2): 0.285714
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 1.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.045455
+    Result(1-0): 0.272727
+    Result(1/2-1/2): 0.681818
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.166667
+    Result(1/2-1/2): 0.833333
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 1.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.666667
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.666667
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.500000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.333333
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Praggnanandhaa R, , QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+
+--- WhiteStreak ---
+  WhiteStreak(Negative): 0.243865
+  WhiteStreak(Neutral): 0.452454
+  WhiteStreak(Positive): 0.303681
+
+--- BlackStreak ---
+  BlackStreak(Negative): 0.280675
+  BlackStreak(Neutral): 0.541411
+  BlackStreak(Positive): 0.177914
+

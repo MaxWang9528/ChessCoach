@@ -1,0 +1,15 @@
+Player -> bigECO
+Player -> QueenTraded
+Player -> Balance
+Player -> Castle
+Player -> Result
+
+bigECO -> QueenTraded
+bigECO -> Balance
+bigECO -> Castle
+
+queenTraded -> Result
+Balance -> Result
+Castle -> Result
+whiteStreak -> Result
+blackStreak -> Result

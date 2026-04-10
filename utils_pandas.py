@@ -22,7 +22,7 @@ PLAYERS = [
 
 def find_players(df):
     """Match PLAYERS list to exact names in the dataset."""
-    all_names = set(df['White'].unique()) | set(df['Black'].unique())
+    all_names = set(df["White"].unique()) | set(df["Black"].unique())
     matched = []
     for p in PLAYERS:
         for name in all_names:
@@ -40,7 +40,7 @@ def head_to_head(df):
     h2h = pd.DataFrame(0, index=player_names, columns=player_names)
 
     for _, row in df.iterrows():
-        w, b = row['White'], row['Black']
+        w, b = row["White"], row["Black"]
         if w in player_names and b in player_names:
             h2h.loc[w, b] += 1
             h2h.loc[b, w] += 1
@@ -56,23 +56,23 @@ def eco_counts(df):
 
     print("=== ECO Counts Per Player ===")
     for player in player_names:
-        mask = (df['White'] == player) | (df['Black'] == player)
+        mask = (df["White"] == player) | (df["Black"] == player)
         player_games = df[mask]
-        counts = player_games['ECO'].value_counts()
+        counts = player_games["ECO"].value_counts()
         print(f"\n{player}:")
         print(counts.to_string())
     print()
 
 
 def big_eco_counts(df):
-    """Count bigECO categories for every player (as White and Black combined)."""
+    """Count BigECO categories for every player (as White and Black combined)."""
     player_names = find_players(df)
 
-    print("=== bigECO Counts Per Player ===")
+    print("=== BigECO Counts Per Player ===")
     for player in player_names:
-        mask = (df['White'] == player) | (df['Black'] == player)
+        mask = (df["White"] == player) | (df["Black"] == player)
         player_games = df[mask]
-        counts = player_games['bigECO'].value_counts()
+        counts = player_games["BigECO"].value_counts()
         print(f"\n{player}:")
         print(counts.to_string())
     print()
@@ -80,19 +80,19 @@ def big_eco_counts(df):
 
 def non_traditional_count(df):
     """Count non-traditional games by checking Variant and FEN columns."""
-    variant_mask = df['Variant'].notna() if 'Variant' in df.columns else pd.Series(False, index=df.index)
-    fen_mask = df['FEN'].notna() if 'FEN' in df.columns else pd.Series(False, index=df.index)
+    variant_mask = df["Variant"].notna() if "Variant" in df.columns else pd.Series(False, index=df.index)
+    fen_mask = df["FEN"].notna() if "FEN" in df.columns else pd.Series(False, index=df.index)
     mask = variant_mask | fen_mask
     count = mask.sum()
     print(f"=== Non-Traditional Games: {count} ===")
-    if 'Variant' in df.columns:
-        print(df.loc[mask, 'Variant'].value_counts().to_string())
+    if "Variant" in df.columns:
+        print(df.loc[mask, "Variant"].value_counts().to_string())
     print()
 
 
 def missing_round_count(df):
     """Count entries missing a round value."""
-    missing = df['Round'].isna() | (df['Round'].astype(str).str.strip().isin(['', '?']))
+    missing = df["Round"].isna() | (df["Round"].astype(str).str.strip().isin(["", "?"]))
     count = missing.sum()
     print(f"=== Missing Round Entries: {count} ===")
     print()
@@ -105,15 +105,15 @@ def win_rates(df):
     print("=== Win Rates ===")
     results = []
     for player in player_names:
-        white_games = df[df['White'] == player]
-        black_games = df[df['Black'] == player]
+        white_games = df[df["White"] == player]
+        black_games = df[df["Black"] == player]
 
-        white_wins = (white_games['Result'] == '1-0').sum()
-        black_wins = (black_games['Result'] == '0-1').sum()
-        white_draws = (white_games['Result'] == '1/2-1/2').sum()
-        black_draws = (black_games['Result'] == '1/2-1/2').sum()
-        white_losses = (white_games['Result'] == '0-1').sum()
-        black_losses = (black_games['Result'] == '1-0').sum()
+        white_wins = (white_games["Result"] == "1-0").sum()
+        black_wins = (black_games["Result"] == "0-1").sum()
+        white_draws = (white_games["Result"] == "1/2-1/2").sum()
+        black_draws = (black_games["Result"] == "1/2-1/2").sum()
+        white_losses = (white_games["Result"] == "0-1").sum()
+        black_losses = (black_games["Result"] == "1-0").sum()
 
         total_wins = white_wins + black_wins
         total_draws = white_draws + black_draws
@@ -125,17 +125,17 @@ def win_rates(df):
         loss_rate = total_losses / total_games * 100 if total_games > 0 else 0
 
         results.append({
-            'Player': player,
-            'Games': total_games,
-            'Wins': total_wins,
-            'Draws': total_draws,
-            'Losses': total_losses,
-            'Win%': round(win_rate, 1),
-            'Draw%': round(draw_rate, 1),
-            'Loss%': round(loss_rate, 1),
+            "Player": player,
+            "Games": total_games,
+            "Wins": total_wins,
+            "Draws": total_draws,
+            "Losses": total_losses,
+            "Win%": round(win_rate, 1),
+            "Draw%": round(draw_rate, 1),
+            "Loss%": round(loss_rate, 1),
         })
 
-    results_df = pd.DataFrame(results).sort_values('Win%', ascending=False)
+    results_df = pd.DataFrame(results).sort_values("Win%", ascending=False)
     print(results_df.to_string(index=False))
     print()
 
@@ -143,7 +143,7 @@ def win_rates(df):
 def queen_trade_pct(df):
     """Print percentage of games where queens were traded."""
     total = len(df)
-    traded = df['QueenTraded'].sum()
+    traded = df["QueenTraded"].sum()
     pct = traded / total * 100 if total > 0 else 0
     print(f"=== Queen Trade %: {traded}/{total} ({pct:.1f}%) ===")
     print()
@@ -152,7 +152,7 @@ def queen_trade_pct(df):
 def balanced_pct(df):
     """Print percentage of balanced games."""
     total = len(df)
-    bal = df['Balanced'].sum()
+    bal = df["Balanced"].sum()
     pct = bal / total * 100 if total > 0 else 0
     print(f"=== Balanced Game %: {bal}/{total} ({pct:.1f}%) ===")
     print()

@@ -1,0 +1,842 @@
+--- Player ---
+  Player(Giri, Anish): 1.000000
+
+--- BigECO ---
+  [Player=Giri, Anish]
+    BigECO(A00 Polish (Sokolsky) opening): 0.005330
+    BigECO(A01 Nimzovich-Larsen attack): 0.008661
+    BigECO(A02-A03 Bird's opening): 0.002665
+    BigECO(A04-A09 Reti opening): 0.047302
+    BigECO(A10-A39 English opening): 0.098601
+    BigECO(A40-A41 Queen's pawn): 0.003331
+    BigECO(A42 Modern defence, Averbakh system): 0.001332
+    BigECO(A45-A46 Queen's pawn game): 0.021319
+    BigECO(A48-A49 King's Indian, East Indian defence): 0.012658
+    BigECO(A53-A55 Old Indian defence): 0.000666
+    BigECO(A56 Benoni defence): 0.001332
+    BigECO(A57-A59 Benko gambit): 0.000666
+    BigECO(A60-A79 Benoni defence): 0.003997
+    BigECO(A80-A99 Dutch): 0.002665
+    BigECO(B02-B05 Alekhine's defence): 0.001332
+    BigECO(B06 Robatsch (modern) defence): 0.001999
+    BigECO(B07-B09 Pirc defence): 0.003331
+    BigECO(B10-B19 Caro-Kann defence): 0.011326
+    BigECO(B20-B99 Sicilian defence): 0.197868
+    BigECO(C00-C19 French defence): 0.013991
+    BigECO(C23-C24 Bishop's opening): 0.005330
+    BigECO(C25-C29 Vienna game): 0.010660
+    BigECO(C30-C39 King's gambit): 0.001332
+    BigECO(C41 Philidor's defence): 0.002665
+    BigECO(C42-C43 Petrov's defence): 0.039307
+    BigECO(C44 King's pawn game): 0.003997
+    BigECO(C45 Scotch game): 0.005996
+    BigECO(C46 Three knights game): 0.001332
+    BigECO(C47-C49 Four knights, Scotch variation): 0.004664
+    BigECO(C50 Italian Game): 0.025983
+    BigECO(C53-C54 Giuoco Piano): 0.005996
+    BigECO(C55-C59 Two knights defence): 0.005330
+    BigECO(C60-C99 Ruy Lopez (Spanish opening)): 0.082612
+    BigECO(D00 Queen's pawn game): 0.011992
+    BigECO(D01 Richter-Veresov attack): 0.000666
+    BigECO(D02 Queen's pawn game): 0.017988
+    BigECO(D04-D05 Queen's pawn game): 0.005996
+    BigECO(D10-D15 QGD Slav defence): 0.039307
+    BigECO(D16 QGD Slav accepted, Alapin variation): 0.001999
+    BigECO(D17-D19 QGD Slav, Czech defence): 0.008661
+    BigECO(D20-D29 Queen's gambit accepted): 0.005330
+    BigECO(D30-D42 Queen's gambit declined): 0.061292
+    BigECO(D43-D49 QGD semi-Slav): 0.037975
+    BigECO(D50-D69 QGD, 4.Bg5): 0.003331
+    BigECO(D70-D79 Neo-Gruenfeld defence): 0.012658
+    BigECO(D80-D99 Gruenfeld defence): 0.050633
+    BigECO(E00 Queen's pawn game): 0.002665
+    BigECO(E01-E09 Catalan, closed): 0.015989
+    BigECO(E10 Queen's pawn game): 0.008661
+    BigECO(E11 Bogo-Indian defence): 0.003331
+    BigECO(E12-E19 Queen's Indian defence): 0.003997
+    BigECO(E20-E59 Nimzo-Indian defence): 0.030646
+    BigECO(E60-E99 King's Indian defence): 0.041306
+
+--- QueenTraded ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Giri, Anish]
+    QueenTraded(False): 0.375000
+    QueenTraded(True): 0.625000
+  [BigECO=A01 Nimzovich-Larsen attack, Player=Giri, Anish]
+    QueenTraded(False): 0.230769
+    QueenTraded(True): 0.769231
+  [BigECO=A02-A03 Bird's opening, Player=Giri, Anish]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=A04-A09 Reti opening, Player=Giri, Anish]
+    QueenTraded(False): 0.436620
+    QueenTraded(True): 0.563380
+  [BigECO=A10-A39 English opening, Player=Giri, Anish]
+    QueenTraded(False): 0.425676
+    QueenTraded(True): 0.574324
+  [BigECO=A40-A41 Queen's pawn, Player=Giri, Anish]
+    QueenTraded(False): 0.600000
+    QueenTraded(True): 0.400000
+  [BigECO=A42 Modern defence, Averbakh system, Player=Giri, Anish]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=A45-A46 Queen's pawn game, Player=Giri, Anish]
+    QueenTraded(False): 0.406250
+    QueenTraded(True): 0.593750
+  [BigECO=A48-A49 King's Indian, East Indian defence, Player=Giri, Anish]
+    QueenTraded(False): 0.473684
+    QueenTraded(True): 0.526316
+  [BigECO=A53-A55 Old Indian defence, Player=Giri, Anish]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=A56 Benoni defence, Player=Giri, Anish]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=A57-A59 Benko gambit, Player=Giri, Anish]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=A60-A79 Benoni defence, Player=Giri, Anish]
+    QueenTraded(False): 0.166667
+    QueenTraded(True): 0.833333
+  [BigECO=A80-A99 Dutch, Player=Giri, Anish]
+    QueenTraded(False): 0.250000
+    QueenTraded(True): 0.750000
+  [BigECO=B02-B05 Alekhine's defence, Player=Giri, Anish]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=B06 Robatsch (modern) defence, Player=Giri, Anish]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=B07-B09 Pirc defence, Player=Giri, Anish]
+    QueenTraded(False): 0.200000
+    QueenTraded(True): 0.800000
+  [BigECO=B10-B19 Caro-Kann defence, Player=Giri, Anish]
+    QueenTraded(False): 0.588235
+    QueenTraded(True): 0.411765
+  [BigECO=B20-B99 Sicilian defence, Player=Giri, Anish]
+    QueenTraded(False): 0.468013
+    QueenTraded(True): 0.531987
+  [BigECO=C00-C19 French defence, Player=Giri, Anish]
+    QueenTraded(False): 0.238095
+    QueenTraded(True): 0.761905
+  [BigECO=C23-C24 Bishop's opening, Player=Giri, Anish]
+    QueenTraded(False): 0.375000
+    QueenTraded(True): 0.625000
+  [BigECO=C25-C29 Vienna game, Player=Giri, Anish]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=C30-C39 King's gambit, Player=Giri, Anish]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=C41 Philidor's defence, Player=Giri, Anish]
+    QueenTraded(False): 0.750000
+    QueenTraded(True): 0.250000
+  [BigECO=C42-C43 Petrov's defence, Player=Giri, Anish]
+    QueenTraded(False): 0.440678
+    QueenTraded(True): 0.559322
+  [BigECO=C44 King's pawn game, Player=Giri, Anish]
+    QueenTraded(False): 0.500000
+    QueenTraded(True): 0.500000
+  [BigECO=C45 Scotch game, Player=Giri, Anish]
+    QueenTraded(False): 0.222222
+    QueenTraded(True): 0.777778
+  [BigECO=C46 Three knights game, Player=Giri, Anish]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Giri, Anish]
+    QueenTraded(False): 0.571429
+    QueenTraded(True): 0.428571
+  [BigECO=C50 Italian Game, Player=Giri, Anish]
+    QueenTraded(False): 0.410256
+    QueenTraded(True): 0.589744
+  [BigECO=C53-C54 Giuoco Piano, Player=Giri, Anish]
+    QueenTraded(False): 0.555556
+    QueenTraded(True): 0.444444
+  [BigECO=C55-C59 Two knights defence, Player=Giri, Anish]
+    QueenTraded(False): 0.000000
+    QueenTraded(True): 1.000000
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Giri, Anish]
+    QueenTraded(False): 0.338710
+    QueenTraded(True): 0.661290
+  [BigECO=D00 Queen's pawn game, Player=Giri, Anish]
+    QueenTraded(False): 0.166667
+    QueenTraded(True): 0.833333
+  [BigECO=D01 Richter-Veresov attack, Player=Giri, Anish]
+    QueenTraded(False): 1.000000
+    QueenTraded(True): 0.000000
+  [BigECO=D02 Queen's pawn game, Player=Giri, Anish]
+    QueenTraded(False): 0.370370
+    QueenTraded(True): 0.629630
+  [BigECO=D04-D05 Queen's pawn game, Player=Giri, Anish]
+    QueenTraded(False): 0.666667
+    QueenTraded(True): 0.333333
+  [BigECO=D10-D15 QGD Slav defence, Player=Giri, Anish]
+    QueenTraded(False): 0.423729
+    QueenTraded(True): 0.576271
+  [BigECO=D16 QGD Slav accepted, Alapin variation, Player=Giri, Anish]
+    QueenTraded(False): 0.333333
+    QueenTraded(True): 0.666667
+  [BigECO=D17-D19 QGD Slav, Czech defence, Player=Giri, Anish]
+    QueenTraded(False): 0.538462
+    QueenTraded(True): 0.461538
+  [BigECO=D20-D29 Queen's gambit accepted, Player=Giri, Anish]
+    QueenTraded(False): 0.125000
+    QueenTraded(True): 0.875000
+  [BigECO=D30-D42 Queen's gambit declined, Player=Giri, Anish]
+    QueenTraded(False): 0.402174
+    QueenTraded(True): 0.597826
+  [BigECO=D43-D49 QGD semi-Slav, Player=Giri, Anish]
+    QueenTraded(False): 0.508772
+    QueenTraded(True): 0.491228
+  [BigECO=D50-D69 QGD, 4.Bg5, Player=Giri, Anish]
+    QueenTraded(False): 0.200000
+    QueenTraded(True): 0.800000
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Giri, Anish]
+    QueenTraded(False): 0.315789
+    QueenTraded(True): 0.684211
+  [BigECO=D80-D99 Gruenfeld defence, Player=Giri, Anish]
+    QueenTraded(False): 0.328947
+    QueenTraded(True): 0.671053
+  [BigECO=E00 Queen's pawn game, Player=Giri, Anish]
+    QueenTraded(False): 0.750000
+    QueenTraded(True): 0.250000
+  [BigECO=E01-E09 Catalan, closed, Player=Giri, Anish]
+    QueenTraded(False): 0.541667
+    QueenTraded(True): 0.458333
+  [BigECO=E10 Queen's pawn game, Player=Giri, Anish]
+    QueenTraded(False): 0.615385
+    QueenTraded(True): 0.384615
+  [BigECO=E11 Bogo-Indian defence, Player=Giri, Anish]
+    QueenTraded(False): 0.200000
+    QueenTraded(True): 0.800000
+  [BigECO=E12-E19 Queen's Indian defence, Player=Giri, Anish]
+    QueenTraded(False): 0.166667
+    QueenTraded(True): 0.833333
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Giri, Anish]
+    QueenTraded(False): 0.434783
+    QueenTraded(True): 0.565217
+  [BigECO=E60-E99 King's Indian defence, Player=Giri, Anish]
+    QueenTraded(False): 0.451613
+    QueenTraded(True): 0.548387
+
+--- Balanced ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Giri, Anish]
+    Balanced(False): 0.875000
+    Balanced(True): 0.125000
+  [BigECO=A01 Nimzovich-Larsen attack, Player=Giri, Anish]
+    Balanced(False): 0.769231
+    Balanced(True): 0.230769
+  [BigECO=A02-A03 Bird's opening, Player=Giri, Anish]
+    Balanced(False): 0.750000
+    Balanced(True): 0.250000
+  [BigECO=A04-A09 Reti opening, Player=Giri, Anish]
+    Balanced(False): 0.732394
+    Balanced(True): 0.267606
+  [BigECO=A10-A39 English opening, Player=Giri, Anish]
+    Balanced(False): 0.750000
+    Balanced(True): 0.250000
+  [BigECO=A40-A41 Queen's pawn, Player=Giri, Anish]
+    Balanced(False): 0.600000
+    Balanced(True): 0.400000
+  [BigECO=A42 Modern defence, Averbakh system, Player=Giri, Anish]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A45-A46 Queen's pawn game, Player=Giri, Anish]
+    Balanced(False): 0.843750
+    Balanced(True): 0.156250
+  [BigECO=A48-A49 King's Indian, East Indian defence, Player=Giri, Anish]
+    Balanced(False): 0.684211
+    Balanced(True): 0.315789
+  [BigECO=A53-A55 Old Indian defence, Player=Giri, Anish]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A56 Benoni defence, Player=Giri, Anish]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A57-A59 Benko gambit, Player=Giri, Anish]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A60-A79 Benoni defence, Player=Giri, Anish]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=A80-A99 Dutch, Player=Giri, Anish]
+    Balanced(False): 0.750000
+    Balanced(True): 0.250000
+  [BigECO=B02-B05 Alekhine's defence, Player=Giri, Anish]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=B06 Robatsch (modern) defence, Player=Giri, Anish]
+    Balanced(False): 0.333333
+    Balanced(True): 0.666667
+  [BigECO=B07-B09 Pirc defence, Player=Giri, Anish]
+    Balanced(False): 0.800000
+    Balanced(True): 0.200000
+  [BigECO=B10-B19 Caro-Kann defence, Player=Giri, Anish]
+    Balanced(False): 0.588235
+    Balanced(True): 0.411765
+  [BigECO=B20-B99 Sicilian defence, Player=Giri, Anish]
+    Balanced(False): 0.727273
+    Balanced(True): 0.272727
+  [BigECO=C00-C19 French defence, Player=Giri, Anish]
+    Balanced(False): 0.809524
+    Balanced(True): 0.190476
+  [BigECO=C23-C24 Bishop's opening, Player=Giri, Anish]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=C25-C29 Vienna game, Player=Giri, Anish]
+    Balanced(False): 0.812500
+    Balanced(True): 0.187500
+  [BigECO=C30-C39 King's gambit, Player=Giri, Anish]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C41 Philidor's defence, Player=Giri, Anish]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C42-C43 Petrov's defence, Player=Giri, Anish]
+    Balanced(False): 0.525424
+    Balanced(True): 0.474576
+  [BigECO=C44 King's pawn game, Player=Giri, Anish]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=C45 Scotch game, Player=Giri, Anish]
+    Balanced(False): 0.444444
+    Balanced(True): 0.555556
+  [BigECO=C46 Three knights game, Player=Giri, Anish]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Giri, Anish]
+    Balanced(False): 0.428571
+    Balanced(True): 0.571429
+  [BigECO=C50 Italian Game, Player=Giri, Anish]
+    Balanced(False): 0.692308
+    Balanced(True): 0.307692
+  [BigECO=C53-C54 Giuoco Piano, Player=Giri, Anish]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=C55-C59 Two knights defence, Player=Giri, Anish]
+    Balanced(False): 0.750000
+    Balanced(True): 0.250000
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Giri, Anish]
+    Balanced(False): 0.709677
+    Balanced(True): 0.290323
+  [BigECO=D00 Queen's pawn game, Player=Giri, Anish]
+    Balanced(False): 0.722222
+    Balanced(True): 0.277778
+  [BigECO=D01 Richter-Veresov attack, Player=Giri, Anish]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D02 Queen's pawn game, Player=Giri, Anish]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=D04-D05 Queen's pawn game, Player=Giri, Anish]
+    Balanced(False): 0.777778
+    Balanced(True): 0.222222
+  [BigECO=D10-D15 QGD Slav defence, Player=Giri, Anish]
+    Balanced(False): 0.694915
+    Balanced(True): 0.305085
+  [BigECO=D16 QGD Slav accepted, Alapin variation, Player=Giri, Anish]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D17-D19 QGD Slav, Czech defence, Player=Giri, Anish]
+    Balanced(False): 1.000000
+    Balanced(True): 0.000000
+  [BigECO=D20-D29 Queen's gambit accepted, Player=Giri, Anish]
+    Balanced(False): 0.750000
+    Balanced(True): 0.250000
+  [BigECO=D30-D42 Queen's gambit declined, Player=Giri, Anish]
+    Balanced(False): 0.576087
+    Balanced(True): 0.423913
+  [BigECO=D43-D49 QGD semi-Slav, Player=Giri, Anish]
+    Balanced(False): 0.666667
+    Balanced(True): 0.333333
+  [BigECO=D50-D69 QGD, 4.Bg5, Player=Giri, Anish]
+    Balanced(False): 0.200000
+    Balanced(True): 0.800000
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Giri, Anish]
+    Balanced(False): 0.736842
+    Balanced(True): 0.263158
+  [BigECO=D80-D99 Gruenfeld defence, Player=Giri, Anish]
+    Balanced(False): 0.842105
+    Balanced(True): 0.157895
+  [BigECO=E00 Queen's pawn game, Player=Giri, Anish]
+    Balanced(False): 0.500000
+    Balanced(True): 0.500000
+  [BigECO=E01-E09 Catalan, closed, Player=Giri, Anish]
+    Balanced(False): 0.875000
+    Balanced(True): 0.125000
+  [BigECO=E10 Queen's pawn game, Player=Giri, Anish]
+    Balanced(False): 0.692308
+    Balanced(True): 0.307692
+  [BigECO=E11 Bogo-Indian defence, Player=Giri, Anish]
+    Balanced(False): 0.600000
+    Balanced(True): 0.400000
+  [BigECO=E12-E19 Queen's Indian defence, Player=Giri, Anish]
+    Balanced(False): 0.833333
+    Balanced(True): 0.166667
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Giri, Anish]
+    Balanced(False): 0.804348
+    Balanced(True): 0.195652
+  [BigECO=E60-E99 King's Indian defence, Player=Giri, Anish]
+    Balanced(False): 0.741935
+    Balanced(True): 0.258065
+
+--- CastleBalance ---
+  [BigECO=A00 Polish (Sokolsky) opening, Player=Giri, Anish]
+    CastleBalance(False): 0.125000
+    CastleBalance(True): 0.875000
+  [BigECO=A01 Nimzovich-Larsen attack, Player=Giri, Anish]
+    CastleBalance(False): 0.230769
+    CastleBalance(True): 0.769231
+  [BigECO=A02-A03 Bird's opening, Player=Giri, Anish]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A04-A09 Reti opening, Player=Giri, Anish]
+    CastleBalance(False): 0.140845
+    CastleBalance(True): 0.859155
+  [BigECO=A10-A39 English opening, Player=Giri, Anish]
+    CastleBalance(False): 0.189189
+    CastleBalance(True): 0.810811
+  [BigECO=A40-A41 Queen's pawn, Player=Giri, Anish]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A42 Modern defence, Averbakh system, Player=Giri, Anish]
+    CastleBalance(False): 1.000000
+    CastleBalance(True): 0.000000
+  [BigECO=A45-A46 Queen's pawn game, Player=Giri, Anish]
+    CastleBalance(False): 0.375000
+    CastleBalance(True): 0.625000
+  [BigECO=A48-A49 King's Indian, East Indian defence, Player=Giri, Anish]
+    CastleBalance(False): 0.052632
+    CastleBalance(True): 0.947368
+  [BigECO=A53-A55 Old Indian defence, Player=Giri, Anish]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A56 Benoni defence, Player=Giri, Anish]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A57-A59 Benko gambit, Player=Giri, Anish]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A60-A79 Benoni defence, Player=Giri, Anish]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=A80-A99 Dutch, Player=Giri, Anish]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=B02-B05 Alekhine's defence, Player=Giri, Anish]
+    CastleBalance(False): 1.000000
+    CastleBalance(True): 0.000000
+  [BigECO=B06 Robatsch (modern) defence, Player=Giri, Anish]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=B07-B09 Pirc defence, Player=Giri, Anish]
+    CastleBalance(False): 0.600000
+    CastleBalance(True): 0.400000
+  [BigECO=B10-B19 Caro-Kann defence, Player=Giri, Anish]
+    CastleBalance(False): 0.411765
+    CastleBalance(True): 0.588235
+  [BigECO=B20-B99 Sicilian defence, Player=Giri, Anish]
+    CastleBalance(False): 0.360269
+    CastleBalance(True): 0.639731
+  [BigECO=C00-C19 French defence, Player=Giri, Anish]
+    CastleBalance(False): 0.476190
+    CastleBalance(True): 0.523810
+  [BigECO=C23-C24 Bishop's opening, Player=Giri, Anish]
+    CastleBalance(False): 0.375000
+    CastleBalance(True): 0.625000
+  [BigECO=C25-C29 Vienna game, Player=Giri, Anish]
+    CastleBalance(False): 0.375000
+    CastleBalance(True): 0.625000
+  [BigECO=C30-C39 King's gambit, Player=Giri, Anish]
+    CastleBalance(False): 0.500000
+    CastleBalance(True): 0.500000
+  [BigECO=C41 Philidor's defence, Player=Giri, Anish]
+    CastleBalance(False): 0.250000
+    CastleBalance(True): 0.750000
+  [BigECO=C42-C43 Petrov's defence, Player=Giri, Anish]
+    CastleBalance(False): 0.288136
+    CastleBalance(True): 0.711864
+  [BigECO=C44 King's pawn game, Player=Giri, Anish]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=C45 Scotch game, Player=Giri, Anish]
+    CastleBalance(False): 0.111111
+    CastleBalance(True): 0.888889
+  [BigECO=C46 Three knights game, Player=Giri, Anish]
+    CastleBalance(False): 0.500000
+    CastleBalance(True): 0.500000
+  [BigECO=C47-C49 Four knights, Scotch variation, Player=Giri, Anish]
+    CastleBalance(False): 0.142857
+    CastleBalance(True): 0.857143
+  [BigECO=C50 Italian Game, Player=Giri, Anish]
+    CastleBalance(False): 0.051282
+    CastleBalance(True): 0.948718
+  [BigECO=C53-C54 Giuoco Piano, Player=Giri, Anish]
+    CastleBalance(False): 0.111111
+    CastleBalance(True): 0.888889
+  [BigECO=C55-C59 Two knights defence, Player=Giri, Anish]
+    CastleBalance(False): 0.125000
+    CastleBalance(True): 0.875000
+  [BigECO=C60-C99 Ruy Lopez (Spanish opening), Player=Giri, Anish]
+    CastleBalance(False): 0.258065
+    CastleBalance(True): 0.741935
+  [BigECO=D00 Queen's pawn game, Player=Giri, Anish]
+    CastleBalance(False): 0.388889
+    CastleBalance(True): 0.611111
+  [BigECO=D01 Richter-Veresov attack, Player=Giri, Anish]
+    CastleBalance(False): 1.000000
+    CastleBalance(True): 0.000000
+  [BigECO=D02 Queen's pawn game, Player=Giri, Anish]
+    CastleBalance(False): 0.259259
+    CastleBalance(True): 0.740741
+  [BigECO=D04-D05 Queen's pawn game, Player=Giri, Anish]
+    CastleBalance(False): 0.444444
+    CastleBalance(True): 0.555556
+  [BigECO=D10-D15 QGD Slav defence, Player=Giri, Anish]
+    CastleBalance(False): 0.423729
+    CastleBalance(True): 0.576271
+  [BigECO=D16 QGD Slav accepted, Alapin variation, Player=Giri, Anish]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=D17-D19 QGD Slav, Czech defence, Player=Giri, Anish]
+    CastleBalance(False): 0.384615
+    CastleBalance(True): 0.615385
+  [BigECO=D20-D29 Queen's gambit accepted, Player=Giri, Anish]
+    CastleBalance(False): 0.250000
+    CastleBalance(True): 0.750000
+  [BigECO=D30-D42 Queen's gambit declined, Player=Giri, Anish]
+    CastleBalance(False): 0.304348
+    CastleBalance(True): 0.695652
+  [BigECO=D43-D49 QGD semi-Slav, Player=Giri, Anish]
+    CastleBalance(False): 0.192982
+    CastleBalance(True): 0.807018
+  [BigECO=D50-D69 QGD, 4.Bg5, Player=Giri, Anish]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=D70-D79 Neo-Gruenfeld defence, Player=Giri, Anish]
+    CastleBalance(False): 0.105263
+    CastleBalance(True): 0.894737
+  [BigECO=D80-D99 Gruenfeld defence, Player=Giri, Anish]
+    CastleBalance(False): 0.355263
+    CastleBalance(True): 0.644737
+  [BigECO=E00 Queen's pawn game, Player=Giri, Anish]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E01-E09 Catalan, closed, Player=Giri, Anish]
+    CastleBalance(False): 0.041667
+    CastleBalance(True): 0.958333
+  [BigECO=E10 Queen's pawn game, Player=Giri, Anish]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E11 Bogo-Indian defence, Player=Giri, Anish]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E12-E19 Queen's Indian defence, Player=Giri, Anish]
+    CastleBalance(False): 0.000000
+    CastleBalance(True): 1.000000
+  [BigECO=E20-E59 Nimzo-Indian defence, Player=Giri, Anish]
+    CastleBalance(False): 0.326087
+    CastleBalance(True): 0.673913
+  [BigECO=E60-E99 King's Indian defence, Player=Giri, Anish]
+    CastleBalance(False): 0.096774
+    CastleBalance(True): 0.903226
+
+--- Result ---
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.500000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.444444
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.222222
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.230769
+    Result(1-0): 0.692308
+    Result(1/2-1/2): 0.076923
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.666667
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.111111
+    Result(1-0): 0.555556
+    Result(1/2-1/2): 0.333333
+  [Balanced=False, BlackStreak=Negative, CastleBalance=False, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.307692
+    Result(1-0): 0.538462
+    Result(1/2-1/2): 0.153846
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.210526
+    Result(1-0): 0.631579
+    Result(1/2-1/2): 0.157895
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.300000
+    Result(1-0): 0.150000
+    Result(1/2-1/2): 0.550000
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.366667
+    Result(1-0): 0.066667
+    Result(1/2-1/2): 0.566667
+  [Balanced=False, BlackStreak=Negative, CastleBalance=True, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.108696
+    Result(1-0): 0.521739
+    Result(1/2-1/2): 0.369565
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.157895
+    Result(1-0): 0.263158
+    Result(1/2-1/2): 0.578947
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.341463
+    Result(1-0): 0.317073
+    Result(1/2-1/2): 0.341463
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.166667
+    Result(1-0): 0.166667
+    Result(1/2-1/2): 0.666667
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.250000
+    Result(1-0): 0.187500
+    Result(1/2-1/2): 0.562500
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.128571
+    Result(1-0): 0.271429
+    Result(1/2-1/2): 0.600000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=False, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.166667
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.500000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.450000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.300000
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.272727
+    Result(1-0): 0.261364
+    Result(1/2-1/2): 0.465909
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.238095
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.428571
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.169492
+    Result(1-0): 0.220339
+    Result(1/2-1/2): 0.610169
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.196721
+    Result(1-0): 0.207650
+    Result(1/2-1/2): 0.595628
+  [Balanced=False, BlackStreak=Neutral, CastleBalance=True, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.146341
+    Result(1-0): 0.243902
+    Result(1/2-1/2): 0.609756
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.357143
+    Result(1-0): 0.214286
+    Result(1/2-1/2): 0.428571
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.461538
+    Result(1-0): 0.384615
+    Result(1/2-1/2): 0.153846
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.285714
+    Result(1-0): 0.285714
+    Result(1/2-1/2): 0.428571
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.476190
+    Result(1-0): 0.238095
+    Result(1/2-1/2): 0.285714
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.375000
+    Result(1-0): 0.291667
+    Result(1/2-1/2): 0.333333
+  [Balanced=False, BlackStreak=Positive, CastleBalance=False, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.166667
+    Result(1-0): 0.416667
+    Result(1/2-1/2): 0.416667
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.411765
+    Result(1-0): 0.147059
+    Result(1/2-1/2): 0.441176
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.342105
+    Result(1-0): 0.105263
+    Result(1/2-1/2): 0.552632
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.375000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.375000
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.447368
+    Result(1-0): 0.078947
+    Result(1/2-1/2): 0.473684
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.338028
+    Result(1-0): 0.211268
+    Result(1/2-1/2): 0.450704
+  [Balanced=False, BlackStreak=Positive, CastleBalance=True, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.181818
+    Result(1-0): 0.318182
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.500000
+    Result(1-0): 0.500000
+    Result(1/2-1/2): 0.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.333333
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.666667
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.333333
+    Result(1/2-1/2): 0.333333
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=False, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.285714
+    Result(1-0): 0.428571
+    Result(1/2-1/2): 0.285714
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.125000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.625000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.133333
+    Result(1-0): 0.466667
+    Result(1/2-1/2): 0.400000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.076923
+    Result(1-0): 0.076923
+    Result(1/2-1/2): 0.846154
+  [Balanced=True, BlackStreak=Negative, CastleBalance=True, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.090909
+    Result(1-0): 0.272727
+    Result(1/2-1/2): 0.636364
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.166667
+    Result(1-0): 0.166667
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.055556
+    Result(1-0): 0.111111
+    Result(1/2-1/2): 0.833333
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.500000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.500000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.400000
+    Result(1/2-1/2): 0.600000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.000000
+    Result(1-0): 0.133333
+    Result(1/2-1/2): 0.866667
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=False, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.250000
+    Result(1/2-1/2): 0.750000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.285714
+    Result(1-0): 0.142857
+    Result(1/2-1/2): 0.571429
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.241379
+    Result(1-0): 0.137931
+    Result(1/2-1/2): 0.620690
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.058824
+    Result(1-0): 0.176471
+    Result(1/2-1/2): 0.764706
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.100000
+    Result(1/2-1/2): 0.900000
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.036364
+    Result(1-0): 0.090909
+    Result(1/2-1/2): 0.872727
+  [Balanced=True, BlackStreak=Neutral, CastleBalance=True, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.166667
+    Result(1-0): 0.083333
+    Result(1/2-1/2): 0.750000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.000000
+    Result(1-0): 0.200000
+    Result(1/2-1/2): 0.800000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.357143
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.642857
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.333333
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.666667
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.200000
+    Result(1-0): 0.200000
+    Result(1/2-1/2): 0.600000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=False, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Negative]
+    Result(0-1): 0.304348
+    Result(1-0): 0.217391
+    Result(1/2-1/2): 0.478261
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Neutral]
+    Result(0-1): 0.192308
+    Result(1-0): 0.038462
+    Result(1/2-1/2): 0.769231
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Giri, Anish, QueenTraded=False, WhiteStreak=Positive]
+    Result(0-1): 0.111111
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 0.888889
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Negative]
+    Result(0-1): 0.133333
+    Result(1-0): 0.266667
+    Result(1/2-1/2): 0.600000
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Neutral]
+    Result(0-1): 0.111111
+    Result(1-0): 0.055556
+    Result(1/2-1/2): 0.833333
+  [Balanced=True, BlackStreak=Positive, CastleBalance=True, Player=Giri, Anish, QueenTraded=True, WhiteStreak=Positive]
+    Result(0-1): 0.000000
+    Result(1-0): 0.000000
+    Result(1/2-1/2): 1.000000
+
+--- WhiteStreak ---
+  WhiteStreak(Negative): 0.252498
+  WhiteStreak(Neutral): 0.548967
+  WhiteStreak(Positive): 0.198534
+
+--- BlackStreak ---
+  BlackStreak(Negative): 0.173218
+  BlackStreak(Neutral): 0.541639
+  BlackStreak(Positive): 0.285143
+

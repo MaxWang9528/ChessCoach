@@ -13,7 +13,7 @@ PIECE_VALUE = {
     chess.ROOK: 5, chess.QUEEN: 9, chess.KING: 0,
 }
 
-# (range_start, range_end, bigECO_label)
+# (range_start, range_end, BigECO_label)
 BIG_ECO_RANGES = [
     ("A00", "A00", "A00 Polish (Sokolsky) opening"),
     ("A01", "A01", "A01 Nimzovich-Larsen attack"),
@@ -94,7 +94,7 @@ def eco_to_big_eco(eco):
 
 
 def add_big_eco(df):
-    df['bigECO'] = df['ECO'].apply(eco_to_big_eco)
+    df["BigECO"] = df["ECO"].apply(eco_to_big_eco)
     print(f"{Back.CYAN}add_big_eco done{Style.RESET_ALL}")
     return df
 
@@ -102,10 +102,10 @@ def add_big_eco(df):
 def remove_non_traditional(df):
     """Chess960 games etc"""
     mask = pd.Series(False, index=df.index)
-    if 'Variant' in df.columns:
-        mask = mask | df['Variant'].notna()
-    if 'FEN' in df.columns:
-        mask = mask | df['FEN'].notna()
+    if "Variant" in df.columns:
+        mask = mask | df["Variant"].notna()
+    if "FEN" in df.columns:
+        mask = mask | df["FEN"].notna()
     df = df[~mask].reset_index(drop=True)
     print(f"{Back.CYAN}remove_non_traditional done{Style.RESET_ALL}")
     return df
@@ -113,7 +113,7 @@ def remove_non_traditional(df):
 
 def remove_missing_rounds(df):
     """Remove games with missing or unknown round values."""
-    mask = df['Round'].isna() | (df['Round'].astype(str).str.strip().isin(['', '?']))
+    mask = df["Round"].isna() | (df["Round"].astype(str).str.strip().isin(["", "?"]))
     df = df[~mask].reset_index(drop=True)
     print(f"{Back.CYAN}remove_missing_rounds done{Style.RESET_ALL}")
     return df
@@ -122,7 +122,7 @@ def remove_missing_rounds(df):
 def _get_game_length(moves):
     if pd.isna(moves):
         return None
-    move_numbers = re.findall(r'(\d+)\.', moves)
+    move_numbers = re.findall(r"(\d+)\.", moves)
     if not move_numbers:
         return None
     return int(move_numbers[-1])
@@ -130,35 +130,35 @@ def _get_game_length(moves):
 
 def add_game_length(df):
     """Determine game length with PGN"""
-    df['GameLength'] = df['Moves'].apply(_get_game_length)
+    df["GameLength"] = df["Moves"].apply(_get_game_length)
     print(f"{Back.CYAN}add_game_length done{Style.RESET_ALL}")
     return df
 
 
 def truncate_rounds(df):
-    """Remove everything after the first '.'
+    """Remove everything after the first "."
     4.2 means round 4 board 2. There are some in the format x.x.x,
     idk what that means... ignore for now."""
-    df['Round'] = df['Round'].astype(str).str.split('.').str[0]
+    df["Round"] = df["Round"].astype(str).str.split(".").str[0]
     print(f"{Back.CYAN}truncate_rounds done{Style.RESET_ALL}")
     return df
 
 
 def remove_variant_cols(df):
     """Remove Variant, FEN, and SetUp columns if present."""
-    to_drop = [col for col in ['Variant', 'FEN', 'SetUp'] if col in df.columns]
+    to_drop = [col for col in ["Variant", "FEN", "SetUp"] if col in df.columns]
     df = df.drop(columns=to_drop)
     print(f"{Back.CYAN}remove_variant_cols done{Style.RESET_ALL}")
     return df
 
 
-def _analyze_game(moves_str, threshold=3, persist=4):
+def _analyze_game(moves_str):
     """Single-pass replay: compute QueenTraded, OppositeCastle, Balanced."""
     if pd.isna(moves_str):
         return False, False, True
 
-    moves_str = re.sub(r'\s*(1-0|0-1|1/2-1/2|\*)\s*$', '', moves_str)
-    sans = [t for t in moves_str.split() if not re.match(r'^\d+\.+$', t)]
+    moves_str = re.sub(r"\s*(1-0|0-1|1/2-1/2|\*)\s*$", "", moves_str)
+    sans = [t for t in moves_str.split() if not re.match(r"^\d+\.+$", t)]
     if not sans:
         return False, False, True
 
@@ -169,7 +169,7 @@ def _analyze_game(moves_str, threshold=3, persist=4):
     streak = 0
     balanced = True
 
-    for san in sans:
+    for move_idx, san in enumerate(sans):
         try:
             move = board.parse_san(san)
         except (chess.InvalidMoveError, chess.AmbiguousMoveError):
@@ -178,14 +178,14 @@ def _analyze_game(moves_str, threshold=3, persist=4):
         # Castling (check before push — board.turn is the side to move)
         if board.is_kingside_castling(move):
             if board.turn == chess.WHITE:
-                white_castle = 'K'
+                white_castle = "K"
             else:
-                black_castle = 'K'
+                black_castle = "K"
         elif board.is_queenside_castling(move):
             if board.turn == chess.WHITE:
-                white_castle = 'Q'
+                white_castle = "Q"
             else:
-                black_castle = 'Q'
+                black_castle = "Q"
 
         # Material balance (check before push to see captured piece)
         if board.is_capture(move):
@@ -213,43 +213,48 @@ def _analyze_game(moves_str, threshold=3, persist=4):
                and not board.pieces(chess.QUEEN, chess.BLACK):
                 queen_traded = True
 
-        # Balance streak
-        if balanced:
-            if abs(balance) >= threshold:
+        # balance streak: 4+ consecutive moves with unequal material then unbalanced
+        # (excluding last 10 moves)
+        if balanced and move_idx < len(sans) - 10:
+            if balance != 0:
                 streak += 1
-                if streak >= persist:
+                if streak >= 4:
                     balanced = False
             else:
                 streak = 0
 
-    opp_castle = (white_castle is not None and black_castle is not None
-                  and white_castle != black_castle)
-    return queen_traded, opp_castle, balanced
+    castle_balance = (white_castle is not None and black_castle is not None
+                      and white_castle == black_castle)
+    return queen_traded, castle_balance, balanced
 
 
 def add_game_features(df):
-    """Add QueenTraded, OppositeCastle, Balanced in one replay pass."""
-    results = df['Moves'].apply(_analyze_game)
-    df['QueenTraded'] = results.apply(lambda r: r[0])
-    df['OppositeCastle'] = results.apply(lambda r: r[1])
-    df['Balanced'] = results.apply(lambda r: r[2])
-    print(f"{Back.CYAN}add_game_features done (QueenTraded, OppositeCastle, Balanced){Style.RESET_ALL}")
+    """Add QueenTraded, CastleBalance, Balanced in one replay pass."""
+    results = df["Moves"].apply(_analyze_game)
+    df["QueenTraded"] = results.apply(lambda r: r[0])
+    df["CastleBalance"] = results.apply(lambda r: r[1])
+    df["Balanced"] = results.apply(lambda r: r[2])
+    print(f"{Back.CYAN}add_game_features done (QueenTraded, CastleBalance, Balanced){Style.RESET_ALL}")
     return df
 
 
 def _compute_streak(results):
     """
     Compute the win/lose streak coming into each game.
-    Returns a list of streak values (one per game).
-    Positive = win streak, negative = lose streak, 0 = no streak (after draw or start).
+    Returns a list of "Positive", "Negative", or "Neutral".
     """
     streaks = []
     current_streak = 0
     for result in results:
-        streaks.append(current_streak)
-        if result == 'win':
+        if current_streak > 0:
+            streaks.append("Positive")
+        elif current_streak < 0:
+            streaks.append("Negative")
+        else:
+            streaks.append("Neutral")
+        if result == "win":
             current_streak = current_streak + 1 if current_streak > 0 else 1
-        elif result == 'loss':
+        elif result == "loss":
             current_streak = current_streak - 1 if current_streak < 0 else -1
         else:
             current_streak = 0
@@ -265,15 +270,15 @@ def add_win_streak(df):
     # Build per-player game history: (original_index, date, round, result_for_player)
     player_games = {}
     for idx, row in df.iterrows():
-        date, rk = row['Date'], int(row['Round'])
-        white, black, result = row['White'], row['Black'], row['Result']
+        date, rk = row["Date"], int(row["Round"])
+        white, black, result = row["White"], row["Black"], row["Result"]
 
-        if result == '1-0':
-            w_res, b_res = 'win', 'loss'
-        elif result == '0-1':
-            w_res, b_res = 'loss', 'win'
+        if result == "1-0":
+            w_res, b_res = "win", "loss"
+        elif result == "0-1":
+            w_res, b_res = "loss", "win"
         else:
-            w_res, b_res = 'draw', 'draw'
+            w_res, b_res = "draw", "draw"
 
         player_games.setdefault(white, []).append((idx, date, rk, w_res))
         player_games.setdefault(black, []).append((idx, date, rk, b_res))
@@ -288,13 +293,13 @@ def add_win_streak(df):
         streaks = _compute_streak(results)
         for (idx, _, _, _), streak in zip(games, streaks):
             row = df.loc[idx]
-            if row['White'] == player:
+            if row["White"] == player:
                 white_streaks[idx] = streak
             else:
                 black_streaks[idx] = streak
 
-    df['WhiteStreak'] = pd.Series(white_streaks)
-    df['BlackStreak'] = pd.Series(black_streaks)
+    df["WhiteStreak"] = pd.Series(white_streaks)
+    df["BlackStreak"] = pd.Series(black_streaks)
     print(f"{Back.CYAN}add_win_streak done{Style.RESET_ALL}")
     return df
 
