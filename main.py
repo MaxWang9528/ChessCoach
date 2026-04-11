@@ -14,6 +14,8 @@ import modify_data
 import utils_pandas as upd
 from colorama import Back, Style
 import net
+import questions
+
 
 def load_csv():
     csv_path_original = os.path.join(os.path.dirname(__file__), "data", "all_games_original.csv")
@@ -93,13 +95,46 @@ def test(df):
 
 
 def main():
-    prep_data()
-    # df = pd.read_csv("data/all_games.csv")
+    # prep_data()
+    df = pd.read_csv("data/all_games.csv")
     # save_cpds(df)
     # test(df)
     # model = net.Net(df, "Nakamura, Hikaru", "White")
     # result = model.query(["Result"], {"BigECO": "B20-B99 Sicilian defence", "WhiteStreak": "Negative", "BlackStreak": "Positive"})
     # print(result)
+    
+    naka_white = net.Net(df, "Nakamura, Hikaru", "White")
+    naka_black = net.Net(df, "Nakamura, Hikaru", "Black")
+    caru_white = net.Net(df, "Caruana, Fabiano", "White")
+    caru_black = net.Net(df, "Caruana, Fabiano", "Black")
+    giri_white = net.Net(df, "Giri, Anish", "White")
+    giri_black = net.Net(df, "Giri, Anish", "Black")
+    blue_white = net.Net(df, "Bluebaum, Matthias", "White")
+    blue_black = net.Net(df, "Bluebaum, Matthias", "Black")
+    sind_white = net.Net(df, "Sindarov, Javokhir", "White")
+    sind_black = net.Net(df, "Sindarov, Javokhir", "Black")
+    wei_white = net.Net(df, "Wei, Yi", "White")
+    wei_black = net.Net(df, "Wei, Yi", "Black")
+    esip_white = net.Net(df, "Esipenko, Andrey", "White")
+    esip_black = net.Net(df, "Esipenko, Andrey", "Black")
+    prag_white = net.Net(df, "Praggnanandhaa R, ", "White")
+    prag_black = net.Net(df, "Praggnanandhaa R, ", "Black")
+
+    q = questions.Questions(naka_white, naka_black,
+                            caru_white, caru_black,
+                            giri_white, giri_black,
+                            blue_white, blue_black,
+                            sind_white, sind_black,
+                            wei_white, wei_black,
+                            esip_white, esip_black,
+                            prag_white, prag_black)
+
+    q.caruana_spanish_losing_streak()
+    q.bluebaum_best_opening_for_draw_or_win()
+    q.giri_losing_english()
+    q.sindarov_unbalance_or_draw()
+    q.worst_on_losing_streak()
+
 
 
 if __name__ == "__main__":

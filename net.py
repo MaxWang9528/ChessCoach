@@ -70,7 +70,7 @@ class Net:
                     row_labels = [f"{var}({s})" for s in cpd.state_names[var]]
                     if not parents:
                         for label, val in zip(row_labels, values.flatten()):
-                            f.write(f"  {label}: {val:.6f}\n")
+                            f.write(f"  {label}: {val:.6}\n")
                     else:
                         from itertools import product as iter_product
                         parent_states = [cpd.state_names[p] for p in parents]
