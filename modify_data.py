@@ -157,7 +157,7 @@ def _analyze_game(moves_str):
     if pd.isna(moves_str):
         return False, False, True
 
-    moves_str = re.sub(r"\s*(1-0|0-1|1/2-1/2|\*)\s*$", "", moves_str)
+    moves_str = re.sub(r"\s*(1-0|0-1|1/2-1/2|\*)\s*$", "", moves_str)           # use some regex
     sans = [t for t in moves_str.split() if not re.match(r"^\d+\.+$", t)]
     if not sans:
         return False, False, True

@@ -58,6 +58,8 @@ class Net:
         """Print all conditional probability tables. Save full untruncated version if path is given."""
         output = "\n".join(f"--- {cpd.variable} ---\n{cpd}\n" for cpd in self.model.get_cpds())
         print(output)
+
+        # manually iterate through rows of vars since calling model.get_cpds() will return a truncated version
         if path:
             with open(path, "w") as f:
                 for cpd in self.model.get_cpds():

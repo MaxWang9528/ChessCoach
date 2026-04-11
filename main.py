@@ -93,12 +93,13 @@ def test(df):
 
 
 def main():
-    df = pd.read_csv("data/all_games.csv")
+    prep_data()
+    # df = pd.read_csv("data/all_games.csv")
     # save_cpds(df)
     # test(df)
-    model = net.Net(df, "Nakamura, Hikaru", "White")
-    result = model.query(["Result"], {"BigECO": "B20-B99 Sicilian defence", "WhiteStreak": "Negative", "BlackStreak": "Positive"})
-    print(result)
+    # model = net.Net(df, "Nakamura, Hikaru", "White")
+    # result = model.query(["Result"], {"BigECO": "B20-B99 Sicilian defence", "WhiteStreak": "Negative", "BlackStreak": "Positive"})
+    # print(result)
 
 
 if __name__ == "__main__":
