@@ -1,7 +1,5 @@
 # ChessCoach
 
-📄 [Original report (PDF)](CSCI3202%20Report.pdf)
-
 ## Overview
 
 This program uses a Bayesian network as a coaching tool for chess players. This focuses on the 8 players in the 2026 candidates tournament. Repertoires change depending on not only the player, but also what color that player is playing. Because of this, I've chosen to build one net per color, per player, for a total of 16 nets.
@@ -64,29 +62,7 @@ Utilities to help with designing the bayes net.
 Python packages used: Numpy, Pandas, python-chess, Colorama, pgmpy
 Chess data from 365chess.com
 
-## Testing
 
-For testing, I used both anecdotal evidence and calculations. First, I tested if the conditional probability distributions were correct. I sampled a few random values and then calculated by filtering data from the big `all_games.csv` file.
-
-### BigECO, QueenTraded, Balance
-
-Output from code:
-
-```
-BigECO test | BE=B20-B99 | Naka White | 0.154362
-QT test | BE=B10-B19 | QT=F | Naka White | 0.470588
-Bal test | BE=C45 | Bal=T | Caruana Black | 0.166667
-```
-
-I also stepped though a few games manually to see if queens were actually traded, if the games were balanced, etc.
-
-### CastleBalance
-
-This part was checked with anecdotal evidence. From Nakamura white, I chose three openings with different castle balances. The Sicilian has variations where players castle opposite sides, the Ruy Lopez is mostly balanced but sometimes aggressive, and the two knights is usually symmetrical. The values from the cpd are 0.64, 0.76, and 0.86 respectively, which makes sense. I also checked the moves manually for some of the games to determine if the code was correctly determining if the game had castle balance or not.
-
-### WhiteStreak, BlackStreak
-
-I manually checked by sorting by date, and then tracking the same player through a few days to see if streak was updated correctly. Note: the streak will show for a different color depending on what color the player is playing that game.
 
 ### Result
 
@@ -98,7 +74,7 @@ I computed one manually using enumeration from the CPDs. The result matches when
 
 $$P(\text{Result} = \text{1-0} \mid \text{BigECO} = \text{B20-B99},\ \text{WS} = \text{Neg},\ \text{BS} = \text{Pos})$$
 
-Solve with enumeration
+Solve with enumeration example
 
 ### Numerator
 
@@ -248,12 +224,4 @@ Compare P(loss) for each player when their streak is Negative.
 Caruana is impacted the most psychologically when on a losing streak. This makes sense based on the first question
 ```
 
-Above is the output from running all the functions in `questions.py`. The results seem realistic.
-
-## Learning Experience
-
-We went over in class how to answer questions and calculate probabilities using a bayes net, but this taught me about designing the net itself. I went through multiple iterations of the net before deciding on the final one. I originally wanted to integrate the coached player and the color into the bayes net, but because white determines opening (for the most part), and the coached player is supposed to make decisions not based on their previous performance, I decided to leave these out and instead make multiple bayes nets. I learned how to answer questions by chaining results from multiple bayes nets together.
-
-The second category of skills I learned are less related to AI and probability but to python itself. I learned how to use pgmpy to build a bayes net, which I feel is much more powerful than the AIMA library. I also learned some python tricks like unpacking with `**`, regular expressions, and creating cpts (or at least verifying) with pandas dataframe.
-
-Finally, I got some valuable insight into how top chess players actually prepare. The players usually review popular lines and create novel surprises for their opponents, but they also have "seconds" who coach them specifically on how to beat specific opponents. These seconds are most likely looking at historical data to analyze strengths and weaknesses of opponents, and then telling their players what playstyle they should go for at any point in the game.
+kely looking at historical data to analyze strengths and weaknesses of opponents, and then telling their players what playstyle they should go for at any point in the game.
